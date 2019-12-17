@@ -1,0 +1,179 @@
+{
+  "uid" : "658675c09f6e17ed",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_login",
+  "historyId" : "7eafb15f4efb110febad6d6632ce1448",
+  "time" : {
+    "start" : 1575990190523,
+    "stop" : 1575990190872,
+    "duration" : 349
+  },
+  "description" : "这是密码登录的成功用例",
+  "descriptionHtml" : "<p>这是密码登录的成功用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestLogin' object has no attribute 'driver'",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DA6400>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"71474074575bc3939da2012a11dcaba7\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            ac=ActionChains(open_url1)\n>           ac.click( self.driver.find_element(By.XPATH,'//button[text()=\"登录\"]'))\nE           AttributeError: 'TestLogin' object has no attribute 'driver'\n\ntest_2buy.py:35: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1575990184593,
+      "stop" : 1575990184594,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1575990184594,
+      "stop" : 1575990190520,
+      "duration" : 5926
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是密码登录的成功用例",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'TestLogin' object has no attribute 'driver'",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DA6400>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"71474074575bc3939da2012a11dcaba7\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            ac=ActionChains(open_url1)\n>           ac.click( self.driver.find_element(By.XPATH,'//button[text()=\"登录\"]'))\nE           AttributeError: 'TestLogin' object has no attribute 'driver'\n\ntest_2buy.py:35: AttributeError",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1575990190523,
+        "stop" : 1575990190871,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'ghm1234'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4449952069c44904",
+      "name" : "log",
+      "source" : "4449952069c44904.txt",
+      "type" : "text/plain",
+      "size" : 1061
+    }, {
+      "uid" : "790444d50af328a8",
+      "name" : "stdout",
+      "source" : "790444d50af328a8.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "ca501ca09ba6219e",
+      "name" : "stderr",
+      "source" : "ca501ca09ba6219e.txt",
+      "type" : "text/plain",
+      "size" : 1310
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1575990194121,
+      "stop" : 1575990194121,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1575990190927,
+      "stop" : 1575990194119,
+      "duration" : 3192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "7212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "658675c09f6e17ed.json",
+  "parameterValues" : [ ]
+}

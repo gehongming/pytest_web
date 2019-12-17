@@ -1,0 +1,176 @@
+{
+  "uid" : "50e3d24497a79372",
+  "name" : "测试隐形眼镜加入购物车",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_buy_yx",
+  "historyId" : "2dd9e13aae3184d6c07b74eb3f1eacec",
+  "time" : {
+    "start" : 1575975332864,
+    "stop" : 1575975335108,
+    "duration" : 2244
+  },
+  "description" : "这是隐形眼镜加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是隐形眼镜加入购物车的成功用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://m.yjq.com/' == 'https://m.yjq.com/...rd=海昌星眸日抛彩色隐形眼镜5片装'\n  - https://m.yjq.com/\n  + https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000005ACD630>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"19caadf2a7a51df846f99e1384e1651e\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(2)\n        #是否进入搜索结果页\n>       assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\nE       AssertionError: assert 'https://m.yjq.com/' == 'https://m.yjq.com/...rd=海昌星眸日抛彩色隐形眼镜5片装'\nE         - https://m.yjq.com/\nE         + https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\n\ntest_2buy.py:55: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1575975326068,
+      "stop" : 1575975332859,
+      "duration" : 6791
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1575975326067,
+      "stop" : 1575975326068,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是隐形眼镜加入购物车的成功用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://m.yjq.com/' == 'https://m.yjq.com/...rd=海昌星眸日抛彩色隐形眼镜5片装'\n  - https://m.yjq.com/\n  + https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000005ACD630>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"19caadf2a7a51df846f99e1384e1651e\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(2)\n        #是否进入搜索结果页\n>       assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\nE       AssertionError: assert 'https://m.yjq.com/' == 'https://m.yjq.com/...rd=海昌星眸日抛彩色隐形眼镜5片装'\nE         - https://m.yjq.com/\nE         + https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\n\ntest_2buy.py:55: AssertionError",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1575975332864,
+        "stop" : 1575975333088,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'海昌星眸日抛彩色隐形眼镜5片装'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "675da71e08cb42c1",
+      "name" : "log",
+      "source" : "675da71e08cb42c1.txt",
+      "type" : "text/plain",
+      "size" : 1272
+    }, {
+      "uid" : "4845cbcea8f248f2",
+      "name" : "stdout",
+      "source" : "4845cbcea8f248f2.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "23088c7c7bd0bbbf",
+      "name" : "stderr",
+      "source" : "23088c7c7bd0bbbf.txt",
+      "type" : "text/plain",
+      "size" : 1552
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1575975335237,
+      "stop" : 1575975338306,
+      "duration" : 3069
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1575975338310,
+      "stop" : 1575975338311,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "测试隐形眼镜加入购物车"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "5692-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "50e3d24497a79372.json",
+  "parameterValues" : [ ]
+}

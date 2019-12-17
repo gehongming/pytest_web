@@ -1,0 +1,175 @@
+{
+  "uid" : "2dede182ce2409e6",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_login",
+  "historyId" : "7eafb15f4efb110febad6d6632ce1448",
+  "time" : {
+    "start" : 1576029790744,
+    "stop" : 1576029793212,
+    "duration" : 2468
+  },
+  "description" : "这是密码登录的成功用例",
+  "descriptionHtml" : "<p>这是密码登录的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576029784382,
+      "stop" : 1576029784382,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576029784383,
+      "stop" : 1576029790741,
+      "duration" : 6358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是密码登录的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1576029790744,
+        "stop" : 1576029791147,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'ghm1234'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "86397e95f9e11d54",
+      "name" : "log",
+      "source" : "86397e95f9e11d54.txt",
+      "type" : "text/plain",
+      "size" : 1571
+    }, {
+      "uid" : "2db15998b2c165a6",
+      "name" : "stdout",
+      "source" : "2db15998b2c165a6.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "335e26d202c23a20",
+      "name" : "stderr",
+      "source" : "335e26d202c23a20.txt",
+      "type" : "text/plain",
+      "size" : 1944
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576029796426,
+      "stop" : 1576029796426,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576029793213,
+      "stop" : 1576029796423,
+      "duration" : 3210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "10528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "2dede182ce2409e6.json",
+  "parameterValues" : [ ]
+}

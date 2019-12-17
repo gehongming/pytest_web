@@ -1,0 +1,35 @@
+2019-11-22 09:28:14,399 -  common.basepage -INFO - 点击('xpath', '//span[@class="pl20 pr20"]')元素，出现进入购物车弹框 - [basepage.py:216 ]
+2019-11-22 09:28:14,399 -  common.basepage -INFO - 获取窗口数。 - [basepage.py:217 ]
+2019-11-22 09:28:14,399 -  common.basepage -INFO - 等待元素 ('xpath', '//span[@class="pl20 pr20"]') 可见。 - [basepage.py:24 ]
+2019-11-22 09:28:14,476 -  common.basepage -INFO - 开始等待时间点：2019-11-22 09:28:14.399528，结束等待时间点：2019-11-22 09:28:14.476381，等待时长为：0:00:00.076853 - [basepage.py:32 ]
+2019-11-22 09:28:14,477 -  common.basepage -INFO - 查找 进入购物车 中的元素 ('xpath', '//span[@class="pl20 pr20"]')  - [basepage.py:83 ]
+2019-11-22 09:28:14,496 -  common.basepage -INFO -  点击元素 ('xpath', '//span[@class="pl20 pr20"]') - [basepage.py:108 ]
+2019-11-22 09:28:14,780 -  common.basepage -INFO - 进入新页面 - [basepage.py:222 ]
+2019-11-22 09:28:16,130 -  common.basepage -INFO - 等待元素 ('xpath', '//li[text()="定制商品("]') 可见。 - [basepage.py:24 ]
+2019-11-22 09:28:17,472 -  common.basepage -INFO - 开始等待时间点：2019-11-22 09:28:16.130216，结束等待时间点：2019-11-22 09:28:17.472644，等待时长为：0:00:01.342428 - [basepage.py:32 ]
+2019-11-22 09:28:17,472 -  common.basepage -INFO - 查找 切换到定制片 中的元素 ('xpath', '//li[text()="定制商品("]')  - [basepage.py:83 ]
+2019-11-22 09:28:17,508 -  common.basepage -INFO -  点击元素 ('xpath', '//li[text()="定制商品("]') - [basepage.py:108 ]
+2019-11-22 09:28:18,048 -  common.basepage -INFO - 查找 勾选赛目商品 中的元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input')  - [basepage.py:83 ]
+2019-11-22 09:28:18,048 -  common.basepage -INFO -  点击元素 ('xpath', '//span[text()="赛目光学"]/parent::div/span/label/span/input') - [basepage.py:125 ]
+2019-11-22 09:28:18,080 -  common.basepage -INFO - 等待元素 ('xpath', '//span[text()="丹阳市开发区镜色眼镜店"]/parent::div/span/label/span/input') 存在。 - [basepage.py:60 ]
+2019-11-22 09:28:48,254 -  common.basepage -ERROR - 等待元素存在失败： - [basepage.py:72 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 64, in wait_eleExist_true
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-11-22 09:28:48,751 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/非赛目大B_2019-11-22 09_28_48.png - [basepage.py:203 ]
+2019-11-22 09:28:48,751 -  common.basepage -INFO - 等待元素 ('xpath', '//li[text()="去结算"]') 可见。 - [basepage.py:24 ]
+2019-11-22 09:28:48,798 -  common.basepage -INFO - 开始等待时间点：2019-11-22 09:28:48.751387，结束等待时间点：2019-11-22 09:28:48.798097，等待时长为：0:00:00.046710 - [basepage.py:32 ]
+2019-11-22 09:28:48,798 -  common.basepage -INFO - 查找 去结算 中的元素 ('xpath', '//li[text()="去结算"]')  - [basepage.py:83 ]
+2019-11-22 09:28:48,798 -  common.basepage -INFO -  点击元素 ('xpath', '//li[text()="去结算"]') - [basepage.py:108 ]
+2019-11-22 09:28:49,146 -  common.basepage -INFO - 等待元素 ('xpath', '//textarea') 可见。 - [basepage.py:24 ]
+2019-11-22 09:28:49,182 -  common.basepage -INFO - 开始等待时间点：2019-11-22 09:28:49.147631，结束等待时间点：2019-11-22 09:28:49.182565，等待时长为：0:00:00.034934 - [basepage.py:32 ]
+2019-11-22 09:28:49,182 -  common.basepage -INFO - 查找 输入留言 中的元素 ('xpath', '//textarea')  - [basepage.py:83 ]
+2019-11-22 09:28:49,189 -  common.basepage -INFO -  给元素 ('xpath', '//textarea') 输入文本内容:('网管查房',) - [basepage.py:141 ]
+2019-11-22 09:28:49,537 -  common.basepage -INFO - 等待元素 ('xpath', '//div[text()="确认采购"]') 可见。 - [basepage.py:24 ]
+2019-11-22 09:28:49,620 -  common.basepage -INFO - 开始等待时间点：2019-11-22 09:28:49.537889，结束等待时间点：2019-11-22 09:28:49.620730，等待时长为：0:00:00.082841 - [basepage.py:32 ]
+2019-11-22 09:28:49,620 -  common.basepage -INFO - 查找 生成订单 中的元素 ('xpath', '//div[text()="确认采购"]')  - [basepage.py:83 ]
+2019-11-22 09:28:49,636 -  common.basepage -INFO -  点击元素 ('xpath', '//div[text()="确认采购"]') - [basepage.py:108 ]

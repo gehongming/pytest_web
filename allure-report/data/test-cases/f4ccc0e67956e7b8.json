@@ -1,0 +1,181 @@
+{
+  "uid" : "f4ccc0e67956e7b8",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_login",
+  "historyId" : "7eafb15f4efb110febad6d6632ce1448",
+  "time" : {
+    "start" : 1576029018208,
+    "stop" : 1576029018510,
+    "duration" : 302
+  },
+  "description" : "这是密码登录的成功用例",
+  "descriptionHtml" : "<p>这是密码登录的成功用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'tuple' object has no attribute 'send_keys'",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DD3F60>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ec4af1a01a7cf6fd2c86ce5d1eaf4f\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n>           lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n\ntest_2buy.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PageObjects.m.login_page.LoginPage object at 0x0000000004DFBC18>\nuser = '17625188013', passwd = 'ghm1234'\n\n    @allure.step('验证码登录')\n    def login_pwd(self,user,passwd):\n        #输入账号密码\n        self.input_text(loc.uesr_loc,'输入手机号',user)\n        # self.input_text(loc.password, '输入验证码',passwd,Keys.ENTER)\n        self.input_text(loc.password, '输入密码', passwd)\n        # self.click_element(loc.login,'登录')\n        # self.click(loc.login)\n>       loc.login.send_keys(Keys.ENTER)\nE       AttributeError: 'tuple' object has no attribute 'send_keys'\n\n..\\..\\PageObjects\\m\\login_page.py:21: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576029012363,
+      "stop" : 1576029018205,
+      "duration" : 5842
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576029012363,
+      "stop" : 1576029012363,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是密码登录的成功用例",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'tuple' object has no attribute 'send_keys'",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DD3F60>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"51ec4af1a01a7cf6fd2c86ce5d1eaf4f\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n>           lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n\ntest_2buy.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PageObjects.m.login_page.LoginPage object at 0x0000000004DFBC18>\nuser = '17625188013', passwd = 'ghm1234'\n\n    @allure.step('验证码登录')\n    def login_pwd(self,user,passwd):\n        #输入账号密码\n        self.input_text(loc.uesr_loc,'输入手机号',user)\n        # self.input_text(loc.password, '输入验证码',passwd,Keys.ENTER)\n        self.input_text(loc.password, '输入密码', passwd)\n        # self.click_element(loc.login,'登录')\n        # self.click(loc.login)\n>       loc.login.send_keys(Keys.ENTER)\nE       AttributeError: 'tuple' object has no attribute 'send_keys'\n\n..\\..\\PageObjects\\m\\login_page.py:21: AttributeError",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1576029018208,
+        "stop" : 1576029018508,
+        "duration" : 300
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'tuple' object has no attribute 'send_keys'\n",
+      "statusTrace" : "  File \"E:\\Python3\\lib\\site-packages\\allure_commons\\_allure.py\", line 141, in impl\n    return func(*a, **kw)\n  File \"D:\\B2B\\PageObjects\\m\\login_page.py\", line 21, in login_pwd\n    loc.login.send_keys(Keys.ENTER)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'ghm1234'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5a27528cbbee2569",
+      "name" : "log",
+      "source" : "5a27528cbbee2569.txt",
+      "type" : "text/plain",
+      "size" : 1061
+    }, {
+      "uid" : "100264b649850a15",
+      "name" : "stdout",
+      "source" : "100264b649850a15.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "f8d6ae57964957a5",
+      "name" : "stderr",
+      "source" : "f8d6ae57964957a5.txt",
+      "type" : "text/plain",
+      "size" : 1310
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576029018575,
+      "stop" : 1576029021772,
+      "duration" : 3197
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576029021777,
+      "stop" : 1576029021777,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "2556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "f4ccc0e67956e7b8.json",
+  "parameterValues" : [ ]
+}

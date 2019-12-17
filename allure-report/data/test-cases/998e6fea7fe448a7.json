@@ -1,0 +1,193 @@
+{
+  "uid" : "998e6fea7fe448a7",
+  "name" : "测试隐形眼镜加入购物车",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_buy_yx",
+  "historyId" : "2dd9e13aae3184d6c07b74eb3f1eacec",
+  "time" : {
+    "start" : 1576579594594,
+    "stop" : 1576579598362,
+    "duration" : 3768
+  },
+  "description" : "这是隐形眼镜加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是隐形眼镜加入购物车的成功用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: click_element() missing 1 required positional argument: 'img_doc'",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DC8160>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9aac48b296f8951ecf7cacf0a7cefbca\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        open_url1.get('https://m.yjq.com/search-page')\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\n        #点击进入商品详情页\n        open_url1.get('https://m.yjq.com/product?productId=6397722431108153347')\n        #验证是否进入\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj[\"check_product_url\"]\n        #选择sku\n>       pp(open_url1).yxyj()\n\ntest_2buy.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PageObjects.m.product_page.ProductPage object at 0x0000000004E26B38>\n\n    @allure.step('选择隐形眼镜sku，加入购物车')\n    def yxyj(self):\n        #选择花色及数量\n>       self.click_element(ppl.join_gwc)\nE       TypeError: click_element() missing 1 required positional argument: 'img_doc'\n\n..\\..\\PageObjects\\m\\product_page.py:14: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576579585446,
+      "stop" : 1576579591789,
+      "duration" : 6343
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576579585446,
+      "stop" : 1576579585446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是隐形眼镜加入购物车的成功用例",
+    "status" : "broken",
+    "statusMessage" : "TypeError: click_element() missing 1 required positional argument: 'img_doc'",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004DC8160>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9aac48b296f8951ecf7cacf0a7cefbca\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        open_url1.get('https://m.yjq.com/search-page')\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\n        #点击进入商品详情页\n        open_url1.get('https://m.yjq.com/product?productId=6397722431108153347')\n        #验证是否进入\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj[\"check_product_url\"]\n        #选择sku\n>       pp(open_url1).yxyj()\n\ntest_2buy.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <PageObjects.m.product_page.ProductPage object at 0x0000000004E26B38>\n\n    @allure.step('选择隐形眼镜sku，加入购物车')\n    def yxyj(self):\n        #选择花色及数量\n>       self.click_element(ppl.join_gwc)\nE       TypeError: click_element() missing 1 required positional argument: 'img_doc'\n\n..\\..\\PageObjects\\m\\product_page.py:14: TypeError",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1576579595034,
+        "stop" : 1576579595190,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'海昌星眸日抛彩色隐形眼镜5片装'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1576579598355,
+        "stop" : 1576579598355,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: click_element() missing 1 required positional argument: 'img_doc'\n",
+      "statusTrace" : "  File \"E:\\Python3\\lib\\site-packages\\allure_commons\\_allure.py\", line 141, in impl\n    return func(*a, **kw)\n  File \"D:\\B2B\\PageObjects\\m\\product_page.py\", line 14, in yxyj\n    self.click_element(ppl.join_gwc)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ec81393c2c68a1b",
+      "name" : "log",
+      "source" : "7ec81393c2c68a1b.txt",
+      "type" : "text/plain",
+      "size" : 495
+    }, {
+      "uid" : "d381dead8a8d479b",
+      "name" : "stdout",
+      "source" : "d381dead8a8d479b.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "3b9d9aa184fe0d02",
+      "name" : "stderr",
+      "source" : "3b9d9aa184fe0d02.txt",
+      "type" : "text/plain",
+      "size" : 620
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576579598423,
+      "stop" : 1576579598423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576579598425,
+      "stop" : 1576579598425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试隐形眼镜加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "15560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "998e6fea7fe448a7.json",
+  "parameterValues" : [ ]
+}

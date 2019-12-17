@@ -1,0 +1,212 @@
+{
+  "uid" : "d47e45731fffc7d9",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.pc.test_2buy.TestLogin#test_login",
+  "historyId" : "75647b0908b4775a52c31c989eb9246c",
+  "time" : {
+    "start" : 1576262790194,
+    "stop" : 1576262804177,
+    "duration" : 13983
+  },
+  "description" : "这是验证码登录的成功用例",
+  "descriptionHtml" : "<p>这是验证码登录的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576262783148,
+      "stop" : 1576262790193,
+      "duration" : 7045
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576262743352,
+      "stop" : 1576262743354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是验证码登录的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1576262790194,
+        "stop" : 1576262791035,
+        "duration" : 841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'sD2q'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "88b1551c30879034",
+      "name" : "log",
+      "source" : "88b1551c30879034.txt",
+      "type" : "text/plain",
+      "size" : 1559
+    }, {
+      "uid" : "33739a1cfadd6572",
+      "name" : "stderr",
+      "source" : "33739a1cfadd6572.txt",
+      "type" : "text/plain",
+      "size" : 1963
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576262911275,
+      "stop" : 1576262914938,
+      "duration" : 3663
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576262914957,
+      "stop" : 1576262914957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "10528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.pc.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3e9dc896d411ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576261162945,
+        "stop" : 1576261172427,
+        "duration" : 9482
+      }
+    }, {
+      "uid" : "249954c06172bc26",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1576260724504,
+        "stop" : 1576260760308,
+        "duration" : 35804
+      }
+    }, {
+      "uid" : "2b51099c133aff62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576226301909,
+        "stop" : 1576226311457,
+        "duration" : 9548
+      }
+    }, {
+      "uid" : "87c3a8eca1c33e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576145924560,
+        "stop" : 1576145935477,
+        "duration" : 10917
+      }
+    }, {
+      "uid" : "3531f16b32b06df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575975059407,
+        "stop" : 1575975073151,
+        "duration" : 13744
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d47e45731fffc7d9.json",
+  "parameterValues" : [ ]
+}

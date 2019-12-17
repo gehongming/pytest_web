@@ -1,0 +1,5 @@
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-17 20:14:51.707010，结束等待时间点：2019-12-17 20:14:51.840010，等待时长为：0:00:00.133000
+INFO     common.basepage:basepage.py:85 查找 demo 中的元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') 
+INFO     common.basepage:basepage.py:419 模拟单击元素('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]')
+INFO     common.basepage:basepage.py:422 模拟单击元素('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]')成功

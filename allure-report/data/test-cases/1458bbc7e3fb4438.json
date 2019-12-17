@@ -1,0 +1,196 @@
+{
+  "uid" : "1458bbc7e3fb4438",
+  "name" : "测试购物车结算",
+  "fullName" : "Testcases.test_2buy.TestLogin#test_orders",
+  "historyId" : "1ea0a0fa53fe50fbf5bd97e61db4bb61",
+  "time" : {
+    "start" : 1574434548863,
+    "stop" : 1574434557065,
+    "duration" : 8202
+  },
+  "description" : "这是普通片加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是普通片加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574434476115,
+      "stop" : 1574434476115,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1574434476116,
+      "stop" : 1574434484412,
+      "duration" : 8296
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是普通片加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击进入购物车",
+      "time" : {
+        "start" : 1574434548864,
+        "stop" : 1574434549573,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择普通商品，并结算",
+      "time" : {
+        "start" : 1574434551073,
+        "stop" : 1574434551426,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "生成订单",
+      "time" : {
+        "start" : 1574434553426,
+        "stop" : 1574434554047,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "messaage",
+        "value" : "'网管查房'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c6cae767c88afc23",
+      "name" : "log",
+      "source" : "c6cae767c88afc23.txt",
+      "type" : "text/plain",
+      "size" : 2972
+    }, {
+      "uid" : "3fdfc162ba9c7092",
+      "name" : "stderr",
+      "source" : "3fdfc162ba9c7092.txt",
+      "type" : "text/plain",
+      "size" : 3655
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1574434599039,
+      "stop" : 1574434599039,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1574434595075,
+      "stop" : 1574434599033,
+      "duration" : 3958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试购物车结算"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "1458bbc7e3fb4438.json",
+  "parameterValues" : [ ]
+}

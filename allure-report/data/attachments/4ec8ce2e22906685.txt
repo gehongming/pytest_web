@@ -1,0 +1,62 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:12:56.767865，结束等待时间点：2019-12-10 15:12:56.968885，等待时长为：0:00:00.201020
+INFO     common.basepage:basepage.py:83 查找 同意协议 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:12:57.067895，结束等待时间点：2019-12-10 15:12:57.239912，等待时长为：0:00:00.172017
+INFO     common.basepage:basepage.py:83 查找 输入手机号 中的元素 ('xpath', '//input[@name="phone"]') 
+INFO     common.basepage:basepage.py:141  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('40006540321',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@name="phoneCode"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:12:57.691957，结束等待时间点：2019-12-10 15:12:57.732962，等待时长为：0:00:00.041005
+INFO     common.basepage:basepage.py:83 查找 输入验证码 中的元素 ('xpath', '//input[@name="phoneCode"]') 
+INFO     common.basepage:basepage.py:141  给元素 ('xpath', '//input[@name="phoneCode"]') 输入文本内容:('sD2q',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//p[text()="下一步"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:12:57.807969，结束等待时间点：2019-12-10 15:12:57.855974，等待时长为：0:00:00.048005
+INFO     common.basepage:basepage.py:83 查找 去填信息 中的元素 ('xpath', '//p[text()="下一步"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//p[text()="下一步"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '// input[ @ name = "storeName"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:12:59.942182，结束等待时间点：2019-12-10 15:12:59.964185，等待时长为：0:00:00.022003
+INFO     common.basepage:basepage.py:83 查找 输入店铺名称 中的元素 ('xpath', '// input[ @ name = "storeName"]') 
+INFO     common.basepage:basepage.py:141  给元素 ('xpath', '// input[ @ name = "storeName"]') 输入文本内容:('葛红明眼镜cs40006540321',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//span[@class="ant-cascader-picker-label"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:00.270215，结束等待时间点：2019-12-10 15:13:00.314220，等待时长为：0:00:00.044005
+INFO     common.basepage:basepage.py:83 查找 点击所在地 中的元素 ('xpath', '//span[@class="ant-cascader-picker-label"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//span[@class="ant-cascader-picker-label"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//li[@title="新疆维吾尔自治区"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:00.624251，结束等待时间点：2019-12-10 15:13:00.647253，等待时长为：0:00:00.023002
+INFO     common.basepage:basepage.py:83 查找 省 中的元素 ('xpath', '//li[@title="新疆维吾尔自治区"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//li[@title="新疆维吾尔自治区"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//li[@title="可克达拉市"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:01.085297，结束等待时间点：2019-12-10 15:13:01.112299，等待时长为：0:00:00.027002
+INFO     common.basepage:basepage.py:83 查找 市 中的元素 ('xpath', '//li[@title="可克达拉市"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//li[@title="可克达拉市"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//li[@title="兵团六十七团"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:01.409329，结束等待时间点：2019-12-10 15:13:01.433332，等待时长为：0:00:00.024003
+INFO     common.basepage:basepage.py:83 查找 区 中的元素 ('xpath', '//li[@title="兵团六十七团"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//li[@title="兵团六十七团"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@name="address"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:01.585347，结束等待时间点：2019-12-10 15:13:01.608349，等待时长为：0:00:00.023002
+INFO     common.basepage:basepage.py:83 查找 输入详细地址 中的元素 ('xpath', '//input[@name="address"]') 
+INFO     common.basepage:basepage.py:141  给元素 ('xpath', '//input[@name="address"]') 输入文本内容:('网管查房',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//input[@placeholder="请填写联系人姓名"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:01.720360，结束等待时间点：2019-12-10 15:13:01.754364，等待时长为：0:00:00.034004
+INFO     common.basepage:basepage.py:83 查找 输入联系人 中的元素 ('xpath', '//input[@placeholder="请填写联系人姓名"]') 
+INFO     common.basepage:basepage.py:141  给元素 ('xpath', '//input[@placeholder="请填写联系人姓名"]') 输入文本内容:('小明',)
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//div[text()="营业执照"]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:01.886377，结束等待时间点：2019-12-10 15:13:01.948383，等待时长为：0:00:00.062006
+INFO     common.basepage:basepage.py:83 查找 请求上传营业执照 中的元素 ('xpath', '//div[text()="营业执照"]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//div[text()="营业执照"]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]')
+INFO     common.basepage:basepage.py:262 上传文件路径F:\工作\B2B专用\营业执照.jpeg
+INFO     common.basepage:basepage.py:281 上传文件成功
+INFO     common.basepage:basepage.py:83 查找 选择医疗许可证 中的元素 ('xpath', '//input[@type="checkbox"]') 
+INFO     common.basepage:basepage.py:125  点击元素 ('xpath', '//input[@type="checkbox"]')
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//p[text()="上传医疗器械经营许可证："]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:03.371525，结束等待时间点：2019-12-10 15:13:03.455534，等待时长为：0:00:00.084009
+INFO     common.basepage:basepage.py:83 查找 请求上传医疗许可证 中的元素 ('xpath', '//p[text()="上传医疗器械经营许可证："]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//p[text()="上传医疗器械经营许可证："]/following-sibling::div/div/div/div/div/span/div[@class="ant-upload ant-upload-select ant-upload-select-picture-card"]')
+INFO     common.basepage:basepage.py:262 上传文件路径F:\工作\B2B专用\医疗许可证.jpg
+INFO     common.basepage:basepage.py:281 上传文件成功
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//div[@class="btn__submit"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 15:13:16.801868，结束等待时间点：2019-12-10 15:13:17.030891，等待时长为：0:00:00.229023
+INFO     common.basepage:basepage.py:83 查找 下一步 中的元素 ('xpath', '//div[@class="btn__submit"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//div[@class="btn__submit"]')

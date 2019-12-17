@@ -1,0 +1,15 @@
+2019-12-16 16:49:31,818 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:49:31,855 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:49:31.818818，结束等待时间点：2019-12-16 16:49:31.855821，等待时长为：0:00:00.037003 - [basepage.py:33 ]
+2019-12-16 16:49:31,855 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:49:31,864 -  common.basepage -INFO -  点击元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') - [basepage.py:109 ]
+2019-12-16 16:49:31,909 -  common.basepage -INFO -  点击元素成功 - [basepage.py:111 ]
+2019-12-16 16:49:32,910 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:25 ]
+2019-12-16 16:50:03,025 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-12-16 16:50:03,663 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/搜索商品_2019-12-16 16_50_03.png - [basepage.py:205 ]

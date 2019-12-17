@@ -1,0 +1,211 @@
+{
+  "uid" : "3a46ff74c52d8ed5",
+  "name" : "测试定制片加入购物车",
+  "fullName" : "Testcases.pc.test_2buy.TestLogin#test_buy_dzp",
+  "historyId" : "389722cd3c615372a9e06412a7c638d7",
+  "time" : {
+    "start" : 1576226333098,
+    "stop" : 1576226344071,
+    "duration" : 10973
+  },
+  "description" : "这是定制片加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是定制片加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576226255057,
+      "stop" : 1576226255057,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576226294189,
+      "stop" : 1576226301908,
+      "duration" : 7719
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是定制片加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1576226333099,
+        "stop" : 1576226334130,
+        "duration" : 1031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'【定制片】酷视远视散光隐形眼镜定制片半年抛1片装'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入定制商品详情页面",
+      "time" : {
+        "start" : 1576226336139,
+        "stop" : 1576226336814,
+        "duration" : 675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1576226340882,
+        "stop" : 1576226343514,
+        "duration" : 2632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zyy",
+        "value" : "'右眼（R）'"
+      }, {
+        "name" : "qj",
+        "value" : "'+6.00'"
+      }, {
+        "name" : "zj",
+        "value" : "'-0.25'"
+      }, {
+        "name" : "zw",
+        "value" : "'170'"
+      }, {
+        "name" : "c",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e915792e5353c46d",
+      "name" : "log",
+      "source" : "e915792e5353c46d.txt",
+      "type" : "text/plain",
+      "size" : 4884
+    }, {
+      "uid" : "aae3f780f802d33b",
+      "name" : "stderr",
+      "source" : "aae3f780f802d33b.txt",
+      "type" : "text/plain",
+      "size" : 6032
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576226421757,
+      "stop" : 1576226421758,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576226418606,
+      "stop" : 1576226421755,
+      "duration" : 3149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试定制片加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "16820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.pc.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3a46ff74c52d8ed5.json",
+  "parameterValues" : [ ]
+}

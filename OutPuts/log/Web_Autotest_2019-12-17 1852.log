@@ -1,0 +1,31 @@
+2019-12-17 18:52:54,958 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@data-ids="phoneNum"]') 可见。 - [basepage.py:26 ]
+2019-12-17 18:52:54,990 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:52:54.958239，结束等待时间点：2019-12-17 18:52:54.990239，等待时长为：0:00:00.032000 - [basepage.py:34 ]
+2019-12-17 18:52:54,991 -  common.basepage -INFO - 查找 输入手机号 中的元素 ('xpath', '//input[@data-ids="phoneNum"]')  - [basepage.py:85 ]
+2019-12-17 18:52:54,998 -  common.basepage -INFO -  给元素 ('xpath', '//input[@data-ids="phoneNum"]') 输入文本内容:('17625188013',) - [basepage.py:144 ]
+2019-12-17 18:52:55,127 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@data-ids="codeNum"]') 可见。 - [basepage.py:26 ]
+2019-12-17 18:52:55,159 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:52:55.127239，结束等待时间点：2019-12-17 18:52:55.159239，等待时长为：0:00:00.032000 - [basepage.py:34 ]
+2019-12-17 18:52:55,159 -  common.basepage -INFO - 查找 输入密码 中的元素 ('xpath', '//input[@data-ids="codeNum"]')  - [basepage.py:85 ]
+2019-12-17 18:52:55,166 -  common.basepage -INFO -  给元素 ('xpath', '//input[@data-ids="codeNum"]') 输入文本内容:('ghm1234',) - [basepage.py:144 ]
+2019-12-17 18:52:55,256 -  common.basepage -INFO - 等待元素 ('xpath', '//button[text()="登录"]') 可见。 - [basepage.py:26 ]
+2019-12-17 18:52:55,284 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:52:55.256239，结束等待时间点：2019-12-17 18:52:55.284239，等待时长为：0:00:00.028000 - [basepage.py:34 ]
+2019-12-17 18:52:55,285 -  common.basepage -INFO - 查找 触发登录 中的元素 ('xpath', '//button[text()="登录"]')  - [basepage.py:85 ]
+2019-12-17 18:52:55,294 -  common.basepage -INFO -  给元素 ('xpath', '//button[text()="登录"]') 输入文本内容:('\ue007',) - [basepage.py:144 ]
+2019-12-17 18:52:57,716 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:26 ]
+2019-12-17 18:52:57,745 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:52:57.716239，结束等待时间点：2019-12-17 18:52:57.745239，等待时长为：0:00:00.029000 - [basepage.py:34 ]
+2019-12-17 18:52:57,745 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('id', 'search')  - [basepage.py:85 ]
+2019-12-17 18:52:57,754 -  common.basepage -INFO -  给元素 ('id', 'search') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装', '\ue007') - [basepage.py:144 ]
+2019-12-17 18:53:01,227 -  common.basepage -INFO - 等待元素 ('xpath', '//button[@class="add-car"]') 可见。 - [basepage.py:26 ]
+2019-12-17 18:53:01,252 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:53:01.227239，结束等待时间点：2019-12-17 18:53:01.252239，等待时长为：0:00:00.025000 - [basepage.py:34 ]
+2019-12-17 18:53:01,252 -  common.basepage -INFO - 查找 点击加入购物车 中的元素 ('xpath', '//button[@class="add-car"]')  - [basepage.py:85 ]
+2019-12-17 18:53:01,261 -  common.basepage -INFO - 模拟单击元素('xpath', '//button[@class="add-car"]') - [basepage.py:419 ]
+2019-12-17 18:53:01,391 -  common.basepage -INFO - 模拟单击元素('xpath', '//button[@class="add-car"]')成功 - [basepage.py:422 ]
+2019-12-17 18:53:01,391 -  common.basepage -INFO - 等待元素 ('xpath', '//li[@class="swipe-item"][1]') 可见。 - [basepage.py:26 ]
+2019-12-17 18:53:31,472 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:37 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 30, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-12-17 18:53:31,996 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/选择花色_2019-12-17 18_53_31.png - [basepage.py:206 ]

@@ -1,0 +1,148 @@
+{
+  "uid" : "6dcd839635321a2f",
+  "name" : "test_login2",
+  "fullName" : "Testcases.test_1registered.TestLogin#test_login2",
+  "historyId" : "f63306f20f17b8881996d952deb87b4c",
+  "time" : {
+    "start" : 1574305946563,
+    "stop" : 1574305972346,
+    "duration" : 25783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1574305939137,
+      "stop" : 1574305939137,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url_register",
+    "time" : {
+      "start" : 1574305939137,
+      "stop" : 1574305946560,
+      "duration" : 7423
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "33bd8b30f362ea6b",
+      "name" : "log",
+      "source" : "33bd8b30f362ea6b.txt",
+      "type" : "text/plain",
+      "size" : 8599
+    }, {
+      "uid" : "d3a7ac48653ca651",
+      "name" : "stdout",
+      "source" : "d3a7ac48653ca651.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "bee23f08fc1d40ff",
+      "name" : "stderr",
+      "source" : "bee23f08fc1d40ff.txt",
+      "type" : "text/plain",
+      "size" : 10522
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1574305975488,
+      "stop" : 1574305975489,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url_register::0",
+    "time" : {
+      "start" : 1574305972351,
+      "stop" : 1574305975483,
+      "duration" : 3132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-注册"
+  }, {
+    "name" : "tag",
+    "value" : "register"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_1registered"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "11816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_1registered"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "register" ]
+  },
+  "source" : "6dcd839635321a2f.json",
+  "parameterValues" : [ ]
+}

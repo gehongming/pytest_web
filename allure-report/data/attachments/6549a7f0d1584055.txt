@@ -1,0 +1,19 @@
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 01:57:21.927676，结束等待时间点：2019-12-14 01:57:21.974676，等待时长为：0:00:00.047000
+INFO     common.basepage:basepage.py:84 查找 同意协议 中的元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]') 
+INFO     common.basepage:basepage.py:109  点击元素 ('xpath', '//button[@class="ant-btn ant-btn-primary"]')
+INFO     common.basepage:basepage.py:111  点击元素成功
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@name="phone"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 01:57:22.091676，结束等待时间点：2019-12-14 01:57:22.144676，等待时长为：0:00:00.053000
+INFO     common.basepage:basepage.py:84 查找 输入手机号 中的元素 ('xpath', '//input[@name="phone"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//input[@name="phone"]') 输入文本内容:('80035396321',)
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@name="phoneCode"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 01:57:22.420676，结束等待时间点：2019-12-14 01:57:22.453676，等待时长为：0:00:00.033000
+INFO     common.basepage:basepage.py:84 查找 输入验证码 中的元素 ('xpath', '//input[@name="phoneCode"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//input[@name="phoneCode"]') 输入文本内容:('sD2q',)
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//p[text()="下一步"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 01:57:22.525676，结束等待时间点：2019-12-14 01:57:22.551676，等待时长为：0:00:00.026000
+INFO     common.basepage:basepage.py:84 查找 去填信息 中的元素 ('xpath', '//p[text()="下一步"]') 
+INFO     common.basepage:basepage.py:109  点击元素 ('xpath', '//p[text()="下一步"]')
+INFO     common.basepage:basepage.py:111  点击元素成功
+INFO     common.basepage:basepage.py:205 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/信息填写页面校验失败_2019-12-14 01_57_45.png

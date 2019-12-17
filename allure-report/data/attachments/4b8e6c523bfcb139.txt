@@ -1,0 +1,22 @@
+2019-12-16 16:23:11,141 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:23:11,183 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:23:11.142352，结束等待时间点：2019-12-16 16:23:11.182356，等待时长为：0:00:00.040004 - [basepage.py:33 ]
+2019-12-16 16:23:11,183 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:23:11,193 -  common.basepage -INFO - 鼠标悬浮在元素<selenium.webdriver.remote.webelement.WebElement (session="d6aa816446716ae8d4006d42aba864d2", element="0.03436964500104689-1")>上 - [basepage.py:302 ]
+2019-12-16 16:23:11,208 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:23:11,224 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:23:11.208358，结束等待时间点：2019-12-16 16:23:11.224360，等待时长为：0:00:00.016002 - [basepage.py:33 ]
+2019-12-16 16:23:11,224 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:23:11,231 -  common.basepage -INFO - 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="d6aa816446716ae8d4006d42aba864d2", element="0.03436964500104689-1")> - [basepage.py:318 ]
+2019-12-16 16:23:12,244 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:23:12,289 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:23:12.244462，结束等待时间点：2019-12-16 16:23:12.289466，等待时长为：0:00:00.045004 - [basepage.py:33 ]
+2019-12-16 16:23:12,290 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:23:12,304 -  common.basepage -INFO -  给元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装',) - [basepage.py:143 ]
+2019-12-16 16:23:12,385 -  common.basepage -INFO - 等待元素 ('xpath', '//a[text()="搜索"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:23:42,515 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-12-16 16:23:43,231 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/搜索_2019-12-16 16_23_42.png - [basepage.py:205 ]

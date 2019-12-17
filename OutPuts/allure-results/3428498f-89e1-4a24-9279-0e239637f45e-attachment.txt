@@ -1,0 +1,35 @@
+2019-12-16 16:28:02,322 -  common.basepage -INFO - 等待元素 ('xpath', '//div[@class="search-cont"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:28:02,379 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:28:02.323467，结束等待时间点：2019-12-16 16:28:02.379472，等待时长为：0:00:00.056005 - [basepage.py:33 ]
+2019-12-16 16:28:02,380 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//div[@class="search-cont"]')  - [basepage.py:84 ]
+2019-12-16 16:28:02,390 -  common.basepage -INFO -  点击元素 ('xpath', '//div[@class="search-cont"]') - [basepage.py:109 ]
+2019-12-16 16:28:02,504 -  common.basepage -INFO -  点击元素成功 - [basepage.py:111 ]
+2019-12-16 16:28:03,504 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:25 ]
+2019-12-16 16:28:03,565 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:28:03.504585，结束等待时间点：2019-12-16 16:28:03.565591，等待时长为：0:00:00.061006 - [basepage.py:33 ]
+2019-12-16 16:28:03,565 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('id', 'search')  - [basepage.py:84 ]
+2019-12-16 16:28:03,583 -  common.basepage -INFO -  给元素 ('id', 'search') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装',) - [basepage.py:143 ]
+2019-12-16 16:28:03,673 -  common.basepage -INFO - 等待元素 ('xpath', '//a[text()="搜索"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:28:03,698 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:28:03.674602，结束等待时间点：2019-12-16 16:28:03.698604，等待时长为：0:00:00.024002 - [basepage.py:33 ]
+2019-12-16 16:28:03,698 -  common.basepage -INFO - 查找 搜索 中的元素 ('xpath', '//a[text()="搜索"]')  - [basepage.py:84 ]
+2019-12-16 16:28:03,705 -  common.basepage -INFO -  点击元素 ('xpath', '//a[text()="搜索"]') - [basepage.py:109 ]
+2019-12-16 16:28:03,766 -  common.basepage -INFO -  点击元素成功 - [basepage.py:111 ]
+2019-12-16 16:28:13,786 -  common.basepage -INFO - 等待元素 ('xpath', '//li/a[@href="/product?productId=6397722431108153347"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:28:13,848 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:28:13.787613，结束等待时间点：2019-12-16 16:28:13.848619，等待时长为：0:00:00.061006 - [basepage.py:33 ]
+2019-12-16 16:28:13,848 -  common.basepage -INFO - 查找 进入隐形商品详情页并切换窗口 中的元素 ('xpath', '//li/a[@href="/product?productId=6397722431108153347"]')  - [basepage.py:84 ]
+2019-12-16 16:28:13,855 -  common.basepage -INFO -  点击元素 ('xpath', '//li/a[@href="/product?productId=6397722431108153347"]') - [basepage.py:109 ]
+2019-12-16 16:28:13,889 -  common.basepage -ERROR - 点击元素失败 - [basepage.py:113 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 110, in click_element
+    ele.click()
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <a href="/product?productId=6397722431108153347" class="">...</a> is not clickable at point (15, 260). Other element would receive the click: <li>...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-12-16 16:28:14,352 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/进入隐形商品详情页并切换窗口_2019-12-16 16_28_13.png - [basepage.py:205 ]

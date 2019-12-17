@@ -1,0 +1,191 @@
+{
+  "uid" : "60ccf32450dbdf68",
+  "name" : "测试隐形眼镜加入购物车",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_buy_yx",
+  "historyId" : "2dd9e13aae3184d6c07b74eb3f1eacec",
+  "time" : {
+    "start" : 1576496845579,
+    "stop" : 1576496847197,
+    "duration" : 1618
+  },
+  "description" : "这是隐形眼镜加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是隐形眼镜加入购物车的成功用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://m.yj...星眸日抛彩色隐形眼镜5片装' == 'https://m.yjq...2431108153347'\n  - https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\n  + https://m.yjq.com/product?productId=6397722431108153347",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D8DB38>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"14ce02350e24a8d0489b5f1131941ab1\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        open_url1.get('https://m.yjq.com/search-page')\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\n        #点击进入商品详情页\n        hp(open_url1).click_yx()\n        #验证是否进入\n>       assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj[\"check_product_url\"]\nE       AssertionError: assert 'https://m.yj...星眸日抛彩色隐形眼镜5片装' == 'https://m.yjq...2431108153347'\nE         - https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\nE         + https://m.yjq.com/product?productId=6397722431108153347\n\ntest_2buy.py:60: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576496837286,
+      "stop" : 1576496843662,
+      "duration" : 6376
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576496837286,
+      "stop" : 1576496837286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是隐形眼镜加入购物车的成功用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://m.yj...星眸日抛彩色隐形眼镜5片装' == 'https://m.yjq...2431108153347'\n  - https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\n  + https://m.yjq.com/product?productId=6397722431108153347",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D8DB38>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"14ce02350e24a8d0489b5f1131941ab1\")>\n\n    @pytest.mark.demo\n    @allure.story('测试隐形眼镜加入购物车')\n    @allure.title('测试隐形眼镜加入购物车')\n    @allure.description('这是隐形眼镜加入购物车的成功用例')\n    def test_buy_yx(self,open_url1):\n        open_url1.get('https://m.yjq.com/search-page')\n        #搜索隐形眼镜商品\n        hp(open_url1).search(bd.success_data_yxyj[\"title\"])\n        time.sleep(1)\n        assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj[\"check_url\"]\n        #点击进入商品详情页\n        hp(open_url1).click_yx()\n        #验证是否进入\n>       assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj[\"check_product_url\"]\nE       AssertionError: assert 'https://m.yj...星眸日抛彩色隐形眼镜5片装' == 'https://m.yjq...2431108153347'\nE         - https://m.yjq.com/searchResult?keyword=海昌星眸日抛彩色隐形眼镜5片装\nE         + https://m.yjq.com/product?productId=6397722431108153347\n\ntest_2buy.py:60: AssertionError",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1576496845912,
+        "stop" : 1576496846076,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'海昌星眸日抛彩色隐形眼镜5片装'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入隐形眼镜商品详情页面",
+      "time" : {
+        "start" : 1576496847085,
+        "stop" : 1576496847192,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "51a66a3034a9184e",
+      "name" : "log",
+      "source" : "51a66a3034a9184e.txt",
+      "type" : "text/plain",
+      "size" : 1179
+    }, {
+      "uid" : "aeb3cfbea0a5a452",
+      "name" : "stdout",
+      "source" : "aeb3cfbea0a5a452.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "86f75b2f1edc0920",
+      "name" : "stderr",
+      "source" : "86f75b2f1edc0920.txt",
+      "type" : "text/plain",
+      "size" : 1459
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576496847267,
+      "stop" : 1576496850545,
+      "duration" : 3278
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576496850546,
+      "stop" : 1576496850546,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "story",
+    "value" : "测试隐形眼镜加入购物车"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "21252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "60ccf32450dbdf68.json",
+  "parameterValues" : [ ]
+}

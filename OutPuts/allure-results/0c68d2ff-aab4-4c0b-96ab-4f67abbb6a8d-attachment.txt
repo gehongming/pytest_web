@@ -1,0 +1,21 @@
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@class="s-input"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 02:47:26.793172，结束等待时间点：2019-12-14 02:47:26.814174，等待时长为：0:00:00.021002
+INFO     common.basepage:basepage.py:84 查找 搜索商品 中的元素 ('xpath', '//input[@class="s-input"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//input[@class="s-input"]') 输入文本内容:('万新博览1.56防蓝光非球面近视镜片', '\ue007')
+INFO     common.basepage:basepage.py:218 点击('xpath', '//a[@href="https://www.yjq.com/product/1810231689.html"]')元素，出现进入镜片商品详情页面并切换窗口弹框
+INFO     common.basepage:basepage.py:219 获取窗口数。
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//a[@href="https://www.yjq.com/product/1810231689.html"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 02:47:29.346427，结束等待时间点：2019-12-14 02:47:29.376430，等待时长为：0:00:00.030003
+INFO     common.basepage:basepage.py:84 查找 进入镜片商品详情页面并切换窗口 中的元素 ('xpath', '//a[@href="https://www.yjq.com/product/1810231689.html"]') 
+INFO     common.basepage:basepage.py:109  点击元素 ('xpath', '//a[@href="https://www.yjq.com/product/1810231689.html"]')
+INFO     common.basepage:basepage.py:111  点击元素成功
+INFO     common.basepage:basepage.py:224 进入新页面
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//tr[@skuid="6460400882461704195"]/td/span/input[@class="skuNum"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 02:47:34.046897，结束等待时间点：2019-12-14 02:47:34.087901，等待时长为：0:00:00.041004
+INFO     common.basepage:basepage.py:84 查找 选择数量 中的元素 ('xpath', '//tr[@skuid="6460400882461704195"]/td/span/input[@class="skuNum"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//tr[@skuid="6460400882461704195"]/td/span/input[@class="skuNum"]') 输入文本内容:('2',)
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//button[@class="add-car"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-14 02:47:36.150107，结束等待时间点：2019-12-14 02:47:36.183110，等待时长为：0:00:00.033003
+INFO     common.basepage:basepage.py:84 查找 加入购物车 中的元素 ('xpath', '//button[@class="add-car"]') 
+INFO     common.basepage:basepage.py:109  点击元素 ('xpath', '//button[@class="add-car"]')
+INFO     common.basepage:basepage.py:111  点击元素成功

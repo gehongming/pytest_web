@@ -1,0 +1,5 @@
+2019-12-16 19:25:42,905 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:26 ]
+2019-12-16 19:25:42,940 -  common.basepage -INFO - 开始等待时间点：2019-12-16 19:25:42.905980，结束等待时间点：2019-12-16 19:25:42.940973，等待时长为：0:00:00.034993 - [basepage.py:34 ]
+2019-12-16 19:25:42,940 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:85 ]
+2019-12-16 19:25:42,952 -  common.basepage -INFO - 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="712ec7419824a6e8a97c20f4edbaff54", element="0.9506677476189846-1")> - [basepage.py:418 ]
+2019-12-16 19:25:43,071 -  common.basepage -INFO - 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="712ec7419824a6e8a97c20f4edbaff54", element="0.9506677476189846-1")>成功 - [basepage.py:421 ]

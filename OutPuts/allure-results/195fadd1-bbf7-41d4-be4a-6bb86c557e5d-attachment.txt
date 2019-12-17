@@ -1,0 +1,12 @@
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@data-ids="phoneNum"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-16 16:49:29.996635，结束等待时间点：2019-12-16 16:49:30.125648，等待时长为：0:00:00.129013
+INFO     common.basepage:basepage.py:84 查找 输入手机号 中的元素 ('xpath', '//input[@data-ids="phoneNum"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//input[@data-ids="phoneNum"]') 输入文本内容:('17625188013',)
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//input[@data-ids="codeNum"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-16 16:49:30.274663，结束等待时间点：2019-12-16 16:49:30.304666，等待时长为：0:00:00.030003
+INFO     common.basepage:basepage.py:84 查找 输入密码 中的元素 ('xpath', '//input[@data-ids="codeNum"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//input[@data-ids="codeNum"]') 输入文本内容:('ghm1234',)
+INFO     common.basepage:basepage.py:25 等待元素 ('xpath', '//button[text()="登录"]') 可见。
+INFO     common.basepage:basepage.py:33 开始等待时间点：2019-12-16 16:49:30.391675，结束等待时间点：2019-12-16 16:49:30.421678，等待时长为：0:00:00.030003
+INFO     common.basepage:basepage.py:84 查找 触发登录 中的元素 ('xpath', '//button[text()="登录"]') 
+INFO     common.basepage:basepage.py:143  给元素 ('xpath', '//button[text()="登录"]') 输入文本内容:('\ue007',)

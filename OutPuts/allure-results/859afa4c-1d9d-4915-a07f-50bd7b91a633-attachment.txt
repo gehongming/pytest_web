@@ -1,0 +1,8 @@
+2019-12-10 17:59:29,383 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:24 ]
+2019-12-10 17:59:42,721 -  common.basepage -INFO - 开始等待时间点：2019-12-10 17:59:29.383297，结束等待时间点：2019-12-10 17:59:42.721297，等待时长为：0:00:13.338000 - [basepage.py:32 ]
+2019-12-10 17:59:42,721 -  common.basepage -INFO - 查找 进入搜索页面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:83 ]
+2019-12-10 17:59:42,732 -  common.basepage -INFO -  点击元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') - [basepage.py:108 ]
+2019-12-10 17:59:42,776 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:24 ]
+2019-12-10 17:59:42,794 -  common.basepage -INFO - 开始等待时间点：2019-12-10 17:59:42.776297，结束等待时间点：2019-12-10 17:59:42.794297，等待时长为：0:00:00.018000 - [basepage.py:32 ]
+2019-12-10 17:59:42,795 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:83 ]
+2019-12-10 17:59:42,814 -  common.basepage -INFO -  给元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装', '\ue007') - [basepage.py:141 ]

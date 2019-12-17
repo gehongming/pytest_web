@@ -1,0 +1,4 @@
+INFO     common.basepage:basepage.py:24 等待元素 ('xpath', '//button[text()="登录"]') 可见。
+INFO     common.basepage:basepage.py:32 开始等待时间点：2019-12-10 18:04:53.828526，结束等待时间点：2019-12-10 18:04:53.858529，等待时长为：0:00:00.030003
+INFO     common.basepage:basepage.py:83 查找 登录 中的元素 ('xpath', '//button[text()="登录"]') 
+INFO     common.basepage:basepage.py:108  点击元素 ('xpath', '//button[text()="登录"]')

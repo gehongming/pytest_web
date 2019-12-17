@@ -1,0 +1,4 @@
+2019-12-17 18:36:05,607 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:26 ]
+2019-12-17 18:36:05,636 -  common.basepage -INFO - 开始等待时间点：2019-12-17 18:36:05.607210，结束等待时间点：2019-12-17 18:36:05.636213，等待时长为：0:00:00.029003 - [basepage.py:34 ]
+2019-12-17 18:36:05,637 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('id', 'search')  - [basepage.py:85 ]
+2019-12-17 18:36:05,645 -  common.basepage -INFO -  给元素 ('id', 'search') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装', '\ue007') - [basepage.py:144 ]

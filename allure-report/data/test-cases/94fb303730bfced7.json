@@ -1,0 +1,226 @@
+{
+  "uid" : "94fb303730bfced7",
+  "name" : "测试护理液加入购物车",
+  "fullName" : "Testcases.pc.test_2buy.TestLogin#test_buy_hl",
+  "historyId" : "45854c1bc4dc6b252540c8fe036fa2c6",
+  "time" : {
+    "start" : 1576262815932,
+    "stop" : 1576262824896,
+    "duration" : 8964
+  },
+  "description" : "这是护理液加入购物车的成功用例",
+  "descriptionHtml" : "<p>这是护理液加入购物车的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1576262783148,
+      "stop" : 1576262790193,
+      "duration" : 7045
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1576262743352,
+      "stop" : 1576262743354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是护理液加入购物车的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索商品",
+      "time" : {
+        "start" : 1576262815933,
+        "stop" : 1576262816924,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'卫康新视多功能隐形眼镜护理液125ml'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击进入护理液商品详情页面",
+      "time" : {
+        "start" : 1576262818929,
+        "stop" : 1576262819583,
+        "duration" : 654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择隐形眼镜sku，加入购物车",
+      "time" : {
+        "start" : 1576262823629,
+        "stop" : 1576262823813,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "'1'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8594c89a9758374d",
+      "name" : "log",
+      "source" : "8594c89a9758374d.txt",
+      "type" : "text/plain",
+      "size" : 2624
+    }, {
+      "uid" : "4aaffa1eb7e46d08",
+      "name" : "stderr",
+      "source" : "4aaffa1eb7e46d08.txt",
+      "type" : "text/plain",
+      "size" : 3276
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1576262911275,
+      "stop" : 1576262914938,
+      "duration" : 3663
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1576262914957,
+      "stop" : 1576262914957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试护理液加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.pc"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "10528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.pc.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1747d00b512f7c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576261185282,
+        "stop" : 1576261193937,
+        "duration" : 8655
+      }
+    }, {
+      "uid" : "379ec95a76090bfe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1576260791736,
+        "stop" : 1576260822982,
+        "duration" : 31246
+      }
+    }, {
+      "uid" : "2b45340bb41a032b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576226323901,
+        "stop" : 1576226333078,
+        "duration" : 9177
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "94fb303730bfced7.json",
+  "parameterValues" : [ ]
+}

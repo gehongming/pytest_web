@@ -1,0 +1,185 @@
+{
+  "uid" : "ee0265e178844f94",
+  "name" : "测试登录正常",
+  "fullName" : "Testcases.m.test_2buy.TestLogin#test_login",
+  "historyId" : "7eafb15f4efb110febad6d6632ce1448",
+  "time" : {
+    "start" : 1575974765395,
+    "stop" : 1575974766347,
+    "duration" : 952
+  },
+  "description" : "这是密码登录的成功用例",
+  "descriptionHtml" : "<p>这是密码登录的成功用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://login-m.yjq.com/' == 'https://m.yjq.com/'\n  - https://login-m.yjq.com/\n  ?         ------\n  + https://m.yjq.com/",
+  "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D7A0B8>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d827c42bb637c91dda0dac0bf186cbe4\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            assert True == ip(open_url1).login_check()\n            assert unquote(open_url1.current_url, encoding='utf-8') == 'https://m.yjq.com/'\n        except AssertionError as e:\n            Filelist = get_filelist(contants.reports_screen)\n            with open(Filelist[0], \"rb\") as f:\n                context = f.read()\n                allure.attach(context, \"错误图片\", attachment_type=allure.attachment_type.PNG)\n>               raise e\n\ntest_2buy.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D7A0B8>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d827c42bb637c91dda0dac0bf186cbe4\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            assert True == ip(open_url1).login_check()\n>           assert unquote(open_url1.current_url, encoding='utf-8') == 'https://m.yjq.com/'\nE           AssertionError: assert 'https://login-m.yjq.com/' == 'https://m.yjq.com/'\nE             - https://login-m.yjq.com/\nE             ?         ------\nE             + https://m.yjq.com/\n\ntest_2buy.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_url1",
+    "time" : {
+      "start" : 1575974759242,
+      "stop" : 1575974765393,
+      "duration" : 6151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1575974759242,
+      "stop" : 1575974759242,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是密码登录的成功用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://login-m.yjq.com/' == 'https://m.yjq.com/'\n  - https://login-m.yjq.com/\n  ?         ------\n  + https://m.yjq.com/",
+    "statusTrace" : "self = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D7A0B8>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d827c42bb637c91dda0dac0bf186cbe4\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            assert True == ip(open_url1).login_check()\n            assert unquote(open_url1.current_url, encoding='utf-8') == 'https://m.yjq.com/'\n        except AssertionError as e:\n            Filelist = get_filelist(contants.reports_screen)\n            with open(Filelist[0], \"rb\") as f:\n                context = f.read()\n                allure.attach(context, \"错误图片\", attachment_type=allure.attachment_type.PNG)\n>               raise e\n\ntest_2buy.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Testcases.m.test_2buy.TestLogin object at 0x0000000004D7A0B8>\nopen_url1 = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d827c42bb637c91dda0dac0bf186cbe4\")>\n\n    @pytest.mark.demo\n    @allure.story('登录')\n    @allure.title('测试登录正常')\n    @allure.description('这是密码登录的成功用例')\n    def test_login(self,open_url1):\n        try:\n            lp(open_url1).login_pwd(bd.login_data[\"user\"],bd.login_data[\"passwd\"])\n            assert True == ip(open_url1).login_check()\n>           assert unquote(open_url1.current_url, encoding='utf-8') == 'https://m.yjq.com/'\nE           AssertionError: assert 'https://login-m.yjq.com/' == 'https://m.yjq.com/'\nE             - https://login-m.yjq.com/\nE             ?         ------\nE             + https://m.yjq.com/\n\ntest_2buy.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "验证码登录",
+      "time" : {
+        "start" : 1575974765395,
+        "stop" : 1575974766312,
+        "duration" : 917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'17625188013'"
+      }, {
+        "name" : "passwd",
+        "value" : "'ghm1234'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a3c63fb2c8ec643",
+      "name" : "错误图片",
+      "source" : "a3c63fb2c8ec643.png",
+      "type" : "image/png",
+      "size" : 65569
+    }, {
+      "uid" : "682845a8d447c173",
+      "name" : "log",
+      "source" : "682845a8d447c173.txt",
+      "type" : "text/plain",
+      "size" : 1834
+    }, {
+      "uid" : "f6ee61f94915a4da",
+      "name" : "stdout",
+      "source" : "f6ee61f94915a4da.txt",
+      "type" : "text/plain",
+      "size" : 111
+    }, {
+      "uid" : "1f32254770da5cce",
+      "name" : "stderr",
+      "source" : "1f32254770da5cce.txt",
+      "type" : "text/plain",
+      "size" : 2331
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_url1::0",
+    "time" : {
+      "start" : 1575974766416,
+      "stop" : 1575974769547,
+      "duration" : 3131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1575974769549,
+      "stop" : 1575974769550,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "每日用例-加购"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.m"
+  }, {
+    "name" : "suite",
+    "value" : "test_2buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "10008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.m.test_2buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "ee0265e178844f94.json",
+  "parameterValues" : [ ]
+}

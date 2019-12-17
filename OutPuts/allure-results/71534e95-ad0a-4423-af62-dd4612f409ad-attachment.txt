@@ -1,0 +1,19 @@
+2019-12-16 16:58:18,724 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:58:18,763 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:58:18.725503，结束等待时间点：2019-12-16 16:58:18.763507，等待时长为：0:00:00.038004 - [basepage.py:33 ]
+2019-12-16 16:58:18,763 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:58:18,772 -  common.basepage -INFO -  给元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装',) - [basepage.py:143 ]
+2019-12-16 16:58:19,887 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:25 ]
+2019-12-16 16:58:19,926 -  common.basepage -INFO - 开始等待时间点：2019-12-16 16:58:19.887619，结束等待时间点：2019-12-16 16:58:19.926623，等待时长为：0:00:00.039004 - [basepage.py:33 ]
+2019-12-16 16:58:19,926 -  common.basepage -INFO - 查找 进入搜索界面 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:84 ]
+2019-12-16 16:58:19,938 -  common.basepage -INFO -  点击元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') - [basepage.py:109 ]
+2019-12-16 16:58:19,970 -  common.basepage -INFO -  点击元素成功 - [basepage.py:111 ]
+2019-12-16 16:58:20,971 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:25 ]
+2019-12-16 16:58:51,201 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:36 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 29, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-12-16 16:58:51,805 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/搜索商品_2019-12-16 16_58_51.png - [basepage.py:205 ]
