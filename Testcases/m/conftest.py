@@ -12,12 +12,18 @@ from common import contants
 from common.delete_history import *
 from selenium.webdriver.common.action_chains import ActionChains
 
+remove_files_in_dir(contants.reports_log)
+print('删除日志')
+remove_files_in_dir(contants.allure_results_dir)
+print('删除xml')
+
+
 # session级别的
 @pytest.fixture(scope="session",autouse=True)  #默认调用
 def session_action():
     print("===== 会话开始，测试用例开始执行=====")
     #清除测试报告、截图目录
-    # remove_files_in_dir(contants.reports_log)
+
     remove_files_in_dir(contants.reports_screen)
     yield
     print("===== 会话结束，测试用例全部执行完成！=====")
@@ -25,7 +31,6 @@ def session_action():
 @pytest.fixture(scope="class")
 def open_url_register():
     # 前置
-
     mobileEmulation = {'deviceName': 'iPhone 6/7/8'}
     options = webdriver.ChromeOptions()
     options.add_experimental_option('mobileEmulation', mobileEmulation)
@@ -42,7 +47,7 @@ def open_url1():
     options.add_experimental_option('mobileEmulation', mobileEmulation)
     driver = webdriver.Chrome(executable_path='chromedriver.exe', options=options)
     # ac = ActionChains(driver)
-    driver.get('https://m.vsigo.cn/')
+    driver.get(cd.base_url)
     yield driver
     # driver.quit()
 

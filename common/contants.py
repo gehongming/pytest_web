@@ -38,6 +38,8 @@ log_dir=os.path.join(base_dir,'OutPuts\\log')
 screenshot_dir = os.path.join(base_dir,"Outputs\\screenshots")
 # print(screenshot_dir)
 
+allure_results_dir=os.path.join(base_dir,"Outputs\\allure-results")
+
 
 
 
