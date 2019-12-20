@@ -11,12 +11,12 @@ success_data_yxyj = {"title":"海昌星眸日抛彩色隐形眼镜5片装",
                        "check_product_url":"https://m.yjq.com/product?productId=6397722431108153347"}
 #正常登录购买护理用品
 success_data_huliye= {"title":"卫康新视多功能隐形眼镜护理液355ml",
-                       "check_url":"https://m.yjq.com/searchResult?keyword==卫康新视多功能隐形眼镜护理液355ml",
+                       "check_url":"https://m.yjq.com/searchResult?keyword=卫康新视多功能隐形眼镜护理液355ml",
                        "check_product_url":"https://m.yjq.com/product?productId=6398009929407397891"}
 #正常登录购买订制品
 success_data_dzp = {"title":"【定制片】酷视远视散光隐形眼镜定制片半年抛1片装",
                 "check_url":"https://m.yjq.com/searchResult?keyword=【定制片】酷视远视散光隐形眼镜定制片半年抛1片装",
-                "check_product_url":"https://www.yjq.com/product/1544773746114.html",
+                "check_product_url":"https://m.yjq.com/product?productId=1544772850182525335",
                 "sku":["右眼（R）","+6.00","-0.25","170"]}
 #正常登录购买伴侣盒
 success_data_blh = {"title":"3N还原仪清洗仓",

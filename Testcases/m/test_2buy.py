@@ -24,7 +24,7 @@ from selenium.webdriver.common.by import  By
 class TestLogin:
 
 #密码登录
-    @pytest.mark.smoke
+    @pytest.mark.demo
     @allure.story('登录')
     @allure.title('测试登录正常')
     @allure.description('这是密码登录的成功用例')
@@ -61,7 +61,7 @@ class TestLogin:
         assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj["check_product_url"]
         #选择sku
         pp(open_url1).yxyj()
-        assert True == ip(open_url1).jiaru_success()
+        assert True == ip(open_url1).jiaru_success_1()
 
 #护理液加入购物车
     @pytest.mark.smoke
@@ -73,14 +73,15 @@ class TestLogin:
         time.sleep(2)
         # 是否进入搜索结果页
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_huliye["check_url"]
-        # 点击进入商品详情页,并切换窗口
+        # 点击进入商品详情页
         hp(open_url1).click_hl()
         # 验证是否进入
-        time.sleep(3)
+        time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_huliye["check_product_url"]
         # 选择数量并加入购物车
         pp(open_url1).huliye('1')
-        assert True == ip(open_url1).jiaru_success()
+        time.sleep(0.5)
+        assert True == ip(open_url1).jiaru_success_2()
 
 #定制片加入购物车
     @pytest.mark.smoke
@@ -89,19 +90,19 @@ class TestLogin:
     @allure.description('这是定制片加入购物车的成功用例')
     def test_buy_dzp(self, open_url1):
         hp(open_url1).search(bd.success_data_dzp["title"])
-        time.sleep(2)
+        time.sleep(1)
         # 是否进入搜索结果页
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_dzp["check_url"]
         # 点击进入商品详情页,并切换窗口
         hp(open_url1).click_dz()
         # 验证是否进入
-        time.sleep(3)
+        time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_dzp["check_product_url"]
         # 选择sku并加入购物车
         pp(open_url1).dingzhi(bd.success_data_dzp["sku"][0],bd.success_data_dzp["sku"][1],bd.success_data_dzp["sku"][2],
-        bd.success_data_dzp["sku"][3],bd.success_data_dzp["sku"][4])
-
-        assert True == ip(open_url1).jiaru_success()
+        bd.success_data_dzp["sku"][3])
+        time.sleep(1)
+        assert True == ip(open_url1).jiaru_success_1()
 
 #多彩伴侣盒加入购物车
     @pytest.mark.smoke
@@ -110,20 +111,21 @@ class TestLogin:
     @allure.description('这是伴侣盒加入购物车的成功用例')
     def test_buy_blh(self, open_url1):
         hp(open_url1).search(bd.success_data_blh["title"])
-        time.sleep(2)
+        time.sleep(1)
         # 是否进入搜索结果页
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_blh["check_url"]
         # 点击进入商品详情页,并切换窗口
         hp(open_url1).click_blh()
         # 验证是否进入
-        time.sleep(3)
+        time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_blh["check_product_url"]
         # 选择sku并加入购物车
-        pp(open_url1).banlvhe(bd.success_data_blh["count"])
-        assert True == ip(open_url1).jiaru_success()
+        pp(open_url1).banlvhe()
+        time.sleep(1)
+        assert True == ip(open_url1).jiaru_success_1()
 
 #镜片加入购物车
-    @pytest.mark.smoke
+    @pytest.mark.demo
     @allure.story('测试镜片加入购物车')
     @allure.title('测试镜片加入购物车')
     @allure.description('这是镜片加入购物车的成功用例')
@@ -135,11 +137,12 @@ class TestLogin:
         # 点击进入商品详情页,并切换窗口
         hp(open_url1).click_jp()
         # 验证是否进入
-        time.sleep(3)
+        time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8') == bd.success_data_jp["check_product_url"]
         # 选择sku并加入购物车
-        pp(open_url1).jingpian(bd.success_data_jp["count"])
-        assert True == ip(open_url1).jiaru_success()
+        pp(open_url1).jingpian()
+        time.sleep(1)
+        assert True == ip(open_url1).jiaru_success_1()
 
     #进入购物车,选择普通商品并结算
     @pytest.mark.smoke
@@ -190,11 +193,6 @@ class TestLogin:
 
 
 
-    @pytest.mark.demo
-    def test_demo_sigo(self,open_url1):
-        time.sleep(5)
-        hp(open_url1).demo()
-        assert unquote(open_url1.current_url,encoding='utf-8')=='https://m.vsigo.cn/searchText?keywords='
 
 
 
