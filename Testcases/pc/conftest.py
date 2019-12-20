@@ -11,13 +11,17 @@ from Testdates.pc import common_datas as cd
 from common import contants
 from common.delete_history import *
 
+remove_files_in_dir(contants.reports_log)
+print('删除日志')
+remove_files_in_dir(contants.allure_results_dir)
+print('删除xml')
+
 
 # session级别的
 @pytest.fixture(scope="session",autouse=True)  #默认调用
 def session_action():
     print("===== 会话开始，测试用例开始执行=====")
-    #清除测试报告、截图目录
-    # remove_files_in_dir(contants.reports_log)
+    #清除历史截图目录
     remove_files_in_dir(contants.reports_screen)
     yield
     print("===== 会话结束，测试用例全部执行完成！=====")
