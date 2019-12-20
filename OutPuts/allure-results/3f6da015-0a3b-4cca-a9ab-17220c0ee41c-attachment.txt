@@ -1,0 +1,10 @@
+2019-12-19 21:46:07,244 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:26 ]
+2019-12-19 21:46:37,664 -  common.basepage -ERROR - 等待元素可见失败： - [basepage.py:37 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 30, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-12-19 21:46:38,304 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/搜索商品_2019-12-19 21_46_37.png - [basepage.py:206 ]

@@ -1,0 +1,29 @@
+2019-12-19 21:48:31,628 -  common.basepage -INFO - 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。 - [basepage.py:26 ]
+2019-12-19 21:48:31,682 -  common.basepage -INFO - 开始等待时间点：2019-12-19 21:48:31.628104，结束等待时间点：2019-12-19 21:48:31.682104，等待时长为：0:00:00.054000 - [basepage.py:34 ]
+2019-12-19 21:48:31,682 -  common.basepage -INFO - 查找 去搜索页 中的元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]')  - [basepage.py:85 ]
+2019-12-19 21:48:31,691 -  common.basepage -INFO - 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="083cb0ee902024aa1dbf059b55b94369", element="ee428d4b-e85f-4d7c-bf16-104194136ed1")> - [basepage.py:319 ]
+2019-12-19 21:48:32,408 -  common.basepage -INFO - 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="083cb0ee902024aa1dbf059b55b94369", element="ee428d4b-e85f-4d7c-bf16-104194136ed1")>成功 - [basepage.py:322 ]
+2019-12-19 21:48:32,409 -  common.basepage -INFO - 等待元素 ('id', 'search') 可见。 - [basepage.py:26 ]
+2019-12-19 21:48:32,971 -  common.basepage -INFO - 开始等待时间点：2019-12-19 21:48:32.409904，结束等待时间点：2019-12-19 21:48:32.971904，等待时长为：0:00:00.562000 - [basepage.py:34 ]
+2019-12-19 21:48:32,972 -  common.basepage -INFO - 查找 搜索商品 中的元素 ('id', 'search')  - [basepage.py:85 ]
+2019-12-19 21:48:32,981 -  common.basepage -INFO -  给元素 ('id', 'search') 输入文本内容:('卫康新视多功能隐形眼镜护理液355ml', '\ue007') - [basepage.py:144 ]
+2019-12-19 21:48:35,092 -  common.basepage -INFO - 等待元素 ('xpath', '//li/a[@href="/product?productId=6398009929407397891"]') 可见。 - [basepage.py:26 ]
+2019-12-19 21:48:35,134 -  common.basepage -INFO - 开始等待时间点：2019-12-19 21:48:35.092704，结束等待时间点：2019-12-19 21:48:35.134904，等待时长为：0:00:00.042200 - [basepage.py:34 ]
+2019-12-19 21:48:35,134 -  common.basepage -INFO - 查找 进入护理商品详情页面并切换窗口 中的元素 ('xpath', '//li/a[@href="/product?productId=6398009929407397891"]')  - [basepage.py:85 ]
+2019-12-19 21:48:35,150 -  common.basepage -INFO -  点击元素 ('xpath', '//li/a[@href="/product?productId=6398009929407397891"]') - [basepage.py:110 ]
+2019-12-19 21:48:36,234 -  common.basepage -ERROR - 点击元素失败 - [basepage.py:114 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 111, in click_element
+    ele.click()
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href="/product?productId=6398009929407397891" class="">...</a> is not clickable at point (348, 130). Other element would receive the click: <div class="searchlast-mianhead">...</div>
+  (Session info: chrome=79.0.3945.88)
+
+2019-12-19 21:48:36,853 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/进入护理商品详情页面并切换窗口_2019-12-19 21_48_36.png - [basepage.py:206 ]

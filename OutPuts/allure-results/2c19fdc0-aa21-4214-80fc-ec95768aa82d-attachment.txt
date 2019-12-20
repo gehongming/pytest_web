@@ -1,0 +1,10 @@
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//input[@placeholder="搜索 商品/品牌/类别"]') 可见。
+ERROR    common.basepage:basepage.py:37 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 30, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     common.basepage:basepage.py:206 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/去搜索页_2019-12-19 21_58_07.png

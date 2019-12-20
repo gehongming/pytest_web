@@ -1,0 +1,19 @@
+2019-12-18 10:43:55,674 -  common.basepage -INFO - 等待元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') 可见。 - [basepage.py:26 ]
+2019-12-18 10:43:55,706 -  common.basepage -INFO - 开始等待时间点：2019-12-18 10:43:55.674542，结束等待时间点：2019-12-18 10:43:55.706546，等待时长为：0:00:00.032004 - [basepage.py:34 ]
+2019-12-18 10:43:55,706 -  common.basepage -INFO - 查找 demo 中的元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]')  - [basepage.py:85 ]
+2019-12-18 10:43:55,715 -  common.basepage -INFO - 模拟单击元素('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') - [basepage.py:419 ]
+2019-12-18 10:43:55,717 -  common.basepage -ERROR - 模拟单击元素失败 - [basepage.py:425 ]
+Traceback (most recent call last):
+  File "D:\B2B\common\basepage.py", line 421, in tap
+    ac.tap(ele).perform()
+  File "E:\Python3\lib\site-packages\selenium\webdriver\common\touch_actions.py", line 47, in perform
+    action()
+  File "E:\Python3\lib\site-packages\selenium\webdriver\common\touch_actions.py", line 57, in <lambda>
+    Command.SINGLE_TAP, {'element': on_element.id}))
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown command: Cannot call non W3C standard command while in W3C mode
+
+2019-12-18 10:43:56,746 -  common.basepage -INFO - 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/demo_2019-12-18 10_43_55.png - [basepage.py:206 ]

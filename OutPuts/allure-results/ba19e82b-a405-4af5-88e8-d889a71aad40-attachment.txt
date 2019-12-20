@@ -1,0 +1,45 @@
+INFO     common.basepage:basepage.py:26 等待元素 ('id', 'search') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:09.059566，结束等待时间点：2019-12-19 21:29:09.089566，等待时长为：0:00:00.030000
+INFO     common.basepage:basepage.py:85 查找 搜索商品 中的元素 ('id', 'search') 
+INFO     common.basepage:basepage.py:144  给元素 ('id', 'search') 输入文本内容:('海昌星眸日抛彩色隐形眼镜5片装', '\ue007')
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//button[@class="add-car"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:12.425366，结束等待时间点：2019-12-19 21:29:12.440966，等待时长为：0:00:00.015600
+INFO     common.basepage:basepage.py:85 查找 点击加入购物车 中的元素 ('xpath', '//button[@class="add-car"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="2d491c80-44be-4208-a52a-f19bd687cf4d")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="2d491c80-44be-4208-a52a-f19bd687cf4d")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//li[@class="swipe-item"][1]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:13.249166，结束等待时间点：2019-12-19 21:29:14.342166，等待时长为：0:00:01.093000
+INFO     common.basepage:basepage.py:85 查找 选择花色 中的元素 ('xpath', '//li[@class="swipe-item"][1]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="8fc72a68-0fad-4081-9206-a70bf3195772")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="8fc72a68-0fad-4081-9206-a70bf3195772")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//span[@class="more-choice-wrap"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:15.223366，结束等待时间点：2019-12-19 21:29:15.786166，等待时长为：0:00:00.562800
+INFO     common.basepage:basepage.py:85 查找 进入多选模式 中的元素 ('xpath', '//span[@class="more-choice-wrap"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="edd35b4a-6833-40c0-914a-439a075b4a2d")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="edd35b4a-6833-40c0-914a-439a075b4a2d")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//div[text()="0-600度"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:16.587766，结束等待时间点：2019-12-19 21:29:16.608766，等待时长为：0:00:00.021000
+INFO     common.basepage:basepage.py:85 查找 选择度数范围 中的元素 ('xpath', '//div[text()="0-600度"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="ac42306d-d9ba-47d7-905c-f111c2e631ad")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="ac42306d-d9ba-47d7-905c-f111c2e631ad")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//div[text()="批量设置"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:17.423566，结束等待时间点：2019-12-19 21:29:17.451566，等待时长为：0:00:00.028000
+INFO     common.basepage:basepage.py:85 查找 进入批量设置 中的元素 ('xpath', '//div[text()="批量设置"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="31b60747-c550-4386-9805-8085b90cf392")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="31b60747-c550-4386-9805-8085b90cf392")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//div[@class="sum-num"]/a[text()="+"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:18.246966，结束等待时间点：2019-12-19 21:29:18.352966，等待时长为：0:00:00.106000
+INFO     common.basepage:basepage.py:85 查找 选择数量 中的元素 ('xpath', '//div[@class="sum-num"]/a[text()="+"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="929c333f-e7e5-402c-abab-a28992fb5ffd")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="929c333f-e7e5-402c-abab-a28992fb5ffd")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//button[text()="确定"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:19.141166，结束等待时间点：2019-12-19 21:29:19.152166，等待时长为：0:00:00.011000
+INFO     common.basepage:basepage.py:85 查找 确认选择数量 中的元素 ('xpath', '//button[text()="确定"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="322986bc-b3d2-437d-ad49-5dda78710898")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="322986bc-b3d2-437d-ad49-5dda78710898")>成功
+INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//a[text()="加入进货单"]') 可见。
+INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-19 21:29:19.968566，结束等待时间点：2019-12-19 21:29:19.995566，等待时长为：0:00:00.027000
+INFO     common.basepage:basepage.py:85 查找 加入购物车 中的元素 ('xpath', '//a[text()="加入进货单"]') 
+INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="927ffe6f-7dad-4692-9b83-6111362ac106")>
+INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="85d7e15357863e1f1ca7370446c6aa30", element="927ffe6f-7dad-4692-9b83-6111362ac106")>成功
+INFO     common.basepage:basepage.py:206 网页截图成功。图片存储在：D:\B2B\Outputs\screenshots/加入购物车校验失败_2019-12-19 21_29_21.png
