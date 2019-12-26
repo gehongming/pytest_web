@@ -23,7 +23,6 @@ print('删除xml')
 def session_action():
     print("===== 会话开始，测试用例开始执行=====")
     #清除测试报告、截图目录
-
     remove_files_in_dir(contants.reports_screen)
     yield
     print("===== 会话结束，测试用例全部执行完成！=====")
@@ -52,9 +51,10 @@ def open_url1():
     # driver.quit()
 
 @pytest.fixture(scope="function")
-def refresh(open_url1):
+def home(open_url1):
+    open_url1.get('https://m.yjq.com')
     yield
-    open_url1[0].refresh()
+
 
 
 

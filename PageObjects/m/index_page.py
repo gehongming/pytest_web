@@ -20,15 +20,35 @@ class IndexPage:
             return False
         except:
             return True
-    #加入购物车成功校验
-    def jiaru_success(self):
+    #加入购物车成功校验-加入购物车成功 您还可以继续添加商品规格
+    def jiaru_success_2(self):
         try:
-            self.driver.find_element_by_xpath(ppl.jiarujinhuodan)
+
+            self.driver.find_element(*ppl.huliy_success_gwc)
             return  True
         except:
             BasePage(self.driver).save_web_screenshot('加入购物车校验失败')
             return False
 
+# 加入购物车成功校验-加入进货单成功
+    def jiaru_success_1(self):
+        try:
+            self.driver.find_element(*ppl.success_gwc)
+            return True
+        except:
+            BasePage(self.driver).save_web_screenshot('加入购物车校验失败')
+            return False
+
+            # 加入清单成功校验
+
+    # 加入清单成功校验
+    def jiaruqingdan_success(self):
+        try:
+            self.driver.find_element(*ppl.dz_check_qingdan)
+            return True
+        except:
+            BasePage(self.driver).save_web_screenshot('加入清单校验失败')
+            return False
     #进入店铺信息填写页校验
     def register_check(self):
         try:

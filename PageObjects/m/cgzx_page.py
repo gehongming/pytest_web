@@ -8,14 +8,25 @@ from common.basepage import BasePage
 import  time
 
 class CgzxPage(BasePage):
-    @allure.step('进入带付款列表，取消订单')
-    def cancel_order_yes(self):
-        self.click_element2(cpl.wait_for_pay,'进入待付款列表')
-        a=int(self.get_element_text(cpl.wait_for_pay_number,'获取待付款数字'))
+    @allure.step('从订单列表进入采购单')
+    def go_jinhuodan(self):
+        self.click(cpl.dhl, '点击单导航栏')
+        time.sleep(0.5)
+        self.click(cpl.jhd,'点击进货单')
 
+    @allure.step('取消订单')
+    def cancel_order_yes(self):
+        self.click(cpl.dhl, '点击单导航栏')
+        time.sleep(0.5)
+        self.click(cpl.cgzx, '点击采购中心')
+        time.sleep(0.5)
+        a=int(self.get_element_text(cpl.num_state,'获取待付款数字'))
+        self.click_element(cpl.cgzx_state,'进入待付款列表')
+        time.sleep(2)
         for i in range (1,a+1):
-            self.click_element(cpl.cancel_order,'取消订单')
-            self.click_element(cpl.yes,'确认')
+            self.click_element2(cpl.button_quxiao,'取消订单')
+            time.sleep(0.1)
+            self.click_element2(cpl.again_quxiao,'确认')
             time.sleep(0.5)
 
 

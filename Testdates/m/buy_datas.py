@@ -30,4 +30,4 @@ success_data_jp = {"title":"凯米拓牌1.67折射率镜片防辐射",
                 }
 
 #生成订单
-to_order={"message":"网管查房","check_url":"https://shop.yjq.com/shoppingCenter/shoppingList"}
+to_order={"message":"网管查房","check_url":"https://cart-m.yjq.com/order/list"}

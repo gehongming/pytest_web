@@ -13,6 +13,7 @@ class ProductPageLocator:
     yx_queding=(By.XPATH,'//button[text()="确定"]')
 
 
+
     #选择护理用品数量
     hl_count=(By.XPATH,'//a[text()="+"]')
 
@@ -35,14 +36,16 @@ class ProductPageLocator:
 ##########################
     # 加入购物车（通用）----选择sku
     join_gwc=(By.XPATH,'//button[@class="add-car"]')
-    #进货单加入成功提示(通用)
+    #选择sku后，加入进货单(通用)
+    jiarujinhuodan = (By.XPATH, '//a[text()="加入进货单"]')
+    #进货单加入成功提示-隐形眼镜
     success_gwc=(By.XPATH,'//span[text()="加入进货单成功"]')
+    # 进货单加入成功提示-护理液
+    huliy_success_gwc=(By.XPATH,'//span[text()="加入购物车成功 您还可以继续添加商品规格"]')
     #导航栏
     dhl=(By.XPATH,'//img[@class="home"]')
     #好货商品
     haohuoshangpin=(By.XPATH,'//A[text()="好货商品"]')
-    #选择sku后，加入进货单
-    jiarujinhuodan = (By.XPATH, '//a[text()="加入进货单"]')
     #进入进货单
     go_jinhuodan=(By.XPATH,'//div[@class="searchlast-buycar"]')
 ###########################

@@ -58,7 +58,7 @@ class BasePage:
 
 # 判断元素是否存在，if判断用
     ##等待元素存在，校验用
-    def wait_eleExist_true(self, loc, img_doc="", timeout=30, frequency=0.5):
+    def wait_eleExist_true(self, loc, img_doc="", timeout=5, frequency=0.5):
             logger.info("等待元素 {} 存在。".format(loc))
             try:
                 # 起始等待的时间 datetime

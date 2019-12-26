@@ -17,8 +17,6 @@ from PageObjects.m.shopping_page import ShopPage as sp
 from Testdates.m import buy_datas as bd
 from common import contants
 from common.file import get_filelist
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import  By
 @allure.feature("每日用例-加购")
 @pytest.mark.usefixtures("open_url1")
 class TestLogin:
@@ -44,7 +42,7 @@ class TestLogin:
 
 #隐形眼镜加入购物车
 
-    @pytest.mark.smoke
+    @pytest.mark.demo
     @allure.story('测试隐形眼镜加入购物车')
     @allure.title('测试隐形眼镜加入购物车')
     @allure.description('这是隐形眼镜加入购物车的成功用例')
@@ -61,10 +59,12 @@ class TestLogin:
         assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj["check_product_url"]
         #选择sku
         pp(open_url1).yxyj()
+        time.sleep(0.5)
         assert True == ip(open_url1).jiaru_success_1()
 
 #护理液加入购物车
-    @pytest.mark.smoke
+    @pytest.mark.usefixtures("home")
+    @pytest.mark.demo
     @allure.story('测试护理液加入购物车')
     @allure.title('测试护理液加入购物车')
     @allure.description('这是护理液加入购物车的成功用例')
@@ -84,7 +84,8 @@ class TestLogin:
         assert True == ip(open_url1).jiaru_success_2()
 
 #定制片加入购物车
-    @pytest.mark.smoke
+    @pytest.mark.usefixtures("home")
+    @pytest.mark.demo
     @allure.story('测试定制片加入购物车')
     @allure.title('测试定制片加入购物车')
     @allure.description('这是定制片加入购物车的成功用例')
@@ -105,7 +106,8 @@ class TestLogin:
         assert True == ip(open_url1).jiaru_success_1()
 
 #多彩伴侣盒加入购物车
-    @pytest.mark.smoke
+    @pytest.mark.usefixtures("home")
+    @pytest.mark.demo
     @allure.story('测试伴侣盒加入购物车')
     @allure.title('测试伴侣盒加入购物车')
     @allure.description('这是伴侣盒加入购物车的成功用例')
@@ -125,7 +127,8 @@ class TestLogin:
         assert True == ip(open_url1).jiaru_success_1()
 
 #镜片加入购物车
-    @pytest.mark.demo
+    @pytest.mark.usefixtures("home")
+    @pytest.mark.smoke
     @allure.story('测试镜片加入购物车')
     @allure.title('测试镜片加入购物车')
     @allure.description('这是镜片加入购物车的成功用例')
@@ -144,13 +147,13 @@ class TestLogin:
         time.sleep(1)
         assert True == ip(open_url1).jiaru_success_1()
 
-    #进入购物车,选择普通商品并结算
-    @pytest.mark.smoke
+#进入购物车,选择普通商品并结算
+    @pytest.mark.demo
     @allure.story('测试购物车结算')
     @allure.title('测试购物车结算')
-    @allure.description('这是普通片加入购物车的成功用例')
+    @allure.description('这是普通片下单的成功用例')
     def test_orders(self,open_url1):
-        hp(open_url1).click_cart()
+        pp(open_url1).go_jinhuodan()
         time.sleep(1.5)
         sp(open_url1).check_goods()
         time.sleep(2)
@@ -158,13 +161,13 @@ class TestLogin:
         time.sleep(3)
         assert open_url1.current_url==bd.to_order["check_url"]
 
-    #进入购物车,选择定制商品并结算
-    @pytest.mark.smoke
+#进入购物车,选择定制商品并结算
+    @pytest.mark.demo
     @allure.story('测试购物车结算')
     @allure.title('测试购物车结算')
-    @allure.description('这是定制片加入购物车的成功用例')
+    @allure.description('这是定制片下单的成功用例')
     def test_dz_orders(self,open_url1):
-        hp(open_url1).click_cart_new()
+        cp(open_url1).go_jinhuodan()
         time.sleep(0.8)
         sp(open_url1).check_goods_dz()
         time.sleep(0.3)
@@ -172,17 +175,8 @@ class TestLogin:
         time.sleep(3)
         assert open_url1.current_url==bd.to_order["check_url"]
 
-    #进入采购单
-    # @pytest.mark.ignore
-    # @allure.story('进入采购单')
-    # @allure.title('测试进入采购单')
-    # @allure.description('这是进入采购单的成功用例')
-    # def test_go_purchase_order(self, open_url1):
-    #     hp(open_url1).purchase_order()
-    #     time.sleep(0.2)
-
 #取消订单
-    @pytest.mark.smoke
+    @pytest.mark.demo
     @allure.story('测试取消订单')
     @allure.title('测试取消订单')
     @allure.description('这是取消采购中心订单的成功用例')
