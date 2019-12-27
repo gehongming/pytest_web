@@ -29,7 +29,7 @@ class TestLogin:
         time.sleep(5)
 
     # 申请店铺上传医疗许可证
-    @pytest.mark.smoke
+    @pytest.mark.demo
     def test_login2(self,open_url_register):
         time.sleep(0.1)
         rp(open_url_register).aggre()

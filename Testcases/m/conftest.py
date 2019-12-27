@@ -10,7 +10,7 @@ from selenium import webdriver
 from Testdates.m import common_datas as cd
 from common import contants
 from common.delete_history import *
-from selenium.webdriver.common.action_chains import ActionChains
+
 
 remove_files_in_dir(contants.reports_log)
 print('删除日志')
@@ -33,10 +33,9 @@ def open_url_register():
     mobileEmulation = {'deviceName': 'iPhone 6/7/8'}
     options = webdriver.ChromeOptions()
     options.add_experimental_option('mobileEmulation', mobileEmulation)
-    driver = webdriver.Chrome(executable_path='chromedriver.exe', chrome_options=options)
+    driver = webdriver.Chrome(executable_path='chromedriver.exe', options=options)
     driver.get(cd.registered_url)
-    yield driver  # yield之前代码是前置，之后的代码就是后置。
-    # 后置
+    yield driver
     driver.quit()
 
 @pytest.fixture(scope="class")
@@ -45,10 +44,9 @@ def open_url1():
     options = webdriver.ChromeOptions()
     options.add_experimental_option('mobileEmulation', mobileEmulation)
     driver = webdriver.Chrome(executable_path='chromedriver.exe', options=options)
-    # ac = ActionChains(driver)
     driver.get(cd.base_url)
     yield driver
-    # driver.quit()
+    driver.quit()
 
 @pytest.fixture(scope="function")
 def home(open_url1):

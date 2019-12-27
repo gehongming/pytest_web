@@ -32,6 +32,7 @@ class IndexPage:
             BasePage(self.driver).save_web_screenshot('加入购物车校验失败')
             return False
 
+
     #进入店铺信息填写页校验
     def register_check(self):
         try:
@@ -50,6 +51,7 @@ class IndexPage:
         except:
             BasePage(self.driver).save_web_screenshot('注册校验失败')
             return False
+
 
 
 

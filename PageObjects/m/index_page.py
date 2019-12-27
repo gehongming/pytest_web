@@ -49,11 +49,14 @@ class IndexPage:
         except:
             BasePage(self.driver).save_web_screenshot('加入清单校验失败')
             return False
+
+
+
     #进入店铺信息填写页校验
     def register_check(self):
         try:
             WebDriverWait(self.driver, 20).until(
-                EC.visibility_of_element_located((By.XPATH,'//p[text() = "以下信息需要审核填写真实信息"]')))
+                EC.visibility_of_element_located((By.XPATH,'//p[text()="填写资料"]')))
             return  True
         except:
             BasePage(self.driver).save_web_screenshot('信息填写页面校验失败')
@@ -62,11 +65,10 @@ class IndexPage:
     def success_register(self):
         try:
             WebDriverWait(self.driver, 20).until(
-                EC.visibility_of_element_located((By.XPATH,'// p[text() = "提交成功"]')))
+                EC.visibility_of_element_located((By.XPATH,'//p[text()="提交成功"]')))
             return  True
         except:
             BasePage(self.driver).save_web_screenshot('注册校验失败')
             return False
-
 
 
