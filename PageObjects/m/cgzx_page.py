@@ -27,7 +27,7 @@ class CgzxPage(BasePage):
             self.click_element2(cpl.button_quxiao,'取消订单')
             time.sleep(0.1)
             self.click_element2(cpl.again_quxiao,'确认')
-            time.sleep(0.5)
+            time.sleep(0.8)
 
 
     def cancel_order_no(self):
