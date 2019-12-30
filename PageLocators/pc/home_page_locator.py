@@ -8,15 +8,15 @@ class HomePageLocator:
     #搜索框
     search=(By.XPATH,'//input[@class="s-input"]')
     #隐形商品链接
-    yx=(By.XPATH,'//a[@href="https://www.yjq.com/product/1544773775205.html"]')
+    yx=(By.XPATH,'//a[@href="https://www.yjq.com/product/1544774335910.html"]')
     # 护理用品链接
-    hl=(By.XPATH,'//a[@href="https://www.yjq.com/product/1805041333.html"]')
+    hl=(By.XPATH,'//a[@href="https://www.yjq.com/product/1544774335921.html"]')
     #定制片链接
-    dz = (By.XPATH,'//a[@href="https://www.yjq.com/product/1544773746114.html"]')
+    dz = (By.XPATH,'//a[@href="https://www.yjq.com/product/1544774327337.html"]')
     #多彩伴侣盒链接
-    blh=(By.XPATH,'//a[@href="https://www.yjq.com/product/1544773749673.html"]')
+    blh=(By.XPATH,'//a[@href="https://www.yjq.com/product/1544774327049.html"]')
     # 镜片链接
-    jp = (By.XPATH,'//a[@href="https://www.yjq.com/product/1810231689.html"]')
+    jp = (By.XPATH,'//a[@href="https://www.yjq.com/product/1544774334240.html"]')
     ###############
     #老项目进入购物车
     go_cart=(By.XPATH,'//a[@href="https://cart.yjq.com/shoppingCart"]')
