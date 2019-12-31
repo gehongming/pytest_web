@@ -30,7 +30,7 @@ class TestLogin:
         # assert  True==ip(open_url_register).success_register()
 
     # 申请店铺上传医疗许可证
-    @pytest.mark.demo
+    @pytest.mark.smoke
     def test_login2(self,open_url_register):
         time.sleep(0.1)
         rp(open_url_register).aggre()

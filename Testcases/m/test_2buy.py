@@ -53,7 +53,7 @@ class TestLogin:
         time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8')== bd.success_data_yxyj["check_url"]
         #点击进入商品详情页
-        open_url1.get('https://m.yjq.com/product?productId=6397722431108153347')
+        hp(open_url1).click_yx()
         #验证是否进入
         time.sleep(1)
         assert unquote(open_url1.current_url, encoding='utf-8')==bd.success_data_yxyj["check_product_url"]
