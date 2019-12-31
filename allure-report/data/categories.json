@@ -1,47 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
-      "children" : [ {
-        "name" : "测试隐形眼镜加入购物车",
-        "uid" : "32cd861d5a38cf93",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1576579977314,
-          "stop" : 1576580011998,
-          "duration" : 34684
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert 'https://m.vsigo.cn/' == 'https://m.vsigo.c...archText?keywords='\n  - https://m.vsigo.cn/\n  + https://m.vsigo.cn/searchText?keywords=",
-      "children" : [ {
-        "name" : "test_demo_sigo",
-        "uid" : "fa95a47c5dda4548",
-        "parentUid" : "d57ad588dd48d85a9494ac12457b8a5c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1576585023485,
-          "stop" : 1576585028668,
-          "duration" : 5183
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d57ad588dd48d85a9494ac12457b8a5c"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

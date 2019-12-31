@@ -1,0 +1,204 @@
+{
+  "uid" : "efe4931e1037075c",
+  "name" : "测试商品是否正常",
+  "fullName" : "Testcases.all.test_4_m_buy.TestXiajia#test_seller_product",
+  "historyId" : "eab9b8f19a0364e5425b8998be6ea4fe",
+  "time" : {
+    "start" : 1577773633239,
+    "stop" : 1577773667690,
+    "duration" : 34451
+  },
+  "description" : "这是商品上架正常的成功用例",
+  "descriptionHtml" : "<p>这是商品上架正常的成功用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1577773565979,
+      "stop" : 1577773565979,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url_pc",
+    "time" : {
+      "start" : 1577773619227,
+      "stop" : 1577773624380,
+      "duration" : 5153
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是商品上架正常的成功用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入供货中心",
+      "time" : {
+        "start" : 1577773633240,
+        "stop" : 1577773633308,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入供货中心-在售列表，下架商品",
+      "time" : {
+        "start" : 1577773636039,
+        "stop" : 1577773640217,
+        "duration" : 4178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'补货'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "回到首页",
+      "time" : {
+        "start" : 1577773666779,
+        "stop" : 1577773667689,
+        "duration" : 910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "74579e4b4ae3cd54",
+      "name" : "log",
+      "source" : "74579e4b4ae3cd54.txt",
+      "type" : "text/plain",
+      "size" : 3767
+    }, {
+      "uid" : "9aa234dc4a72140c",
+      "name" : "stdout",
+      "source" : "9aa234dc4a72140c.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "530e3344642f89d5",
+      "name" : "stderr",
+      "source" : "530e3344642f89d5.txt",
+      "type" : "text/plain",
+      "size" : 4760
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1577773670185,
+      "stop" : 1577773670185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "open_url_pc::0",
+    "time" : {
+      "start" : 1577773667691,
+      "stop" : 1577773670183,
+      "duration" : 2492
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "供货中心下架商品"
+  }, {
+    "name" : "story",
+    "value" : "上架商品"
+  }, {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases.all"
+  }, {
+    "name" : "suite",
+    "value" : "test_4_m_buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXiajia"
+  }, {
+    "name" : "host",
+    "value" : "JS-CS-002"
+  }, {
+    "name" : "thread",
+    "value" : "5912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.all.test_4_m_buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "efe4931e1037075c.json",
+  "parameterValues" : [ ]
+}

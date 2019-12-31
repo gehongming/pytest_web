@@ -1,1 +1,0 @@
-{"uuid": "ccb2eaca-09dc-4a75-8087-7449824ecd57", "children": ["244adf6a-e192-4aef-bea9-c83abf41e679"], "befores": [{"name": "open_url_register", "status": "passed", "start": 1576261114994, "stop": 1576261122736}], "afters": [{"name": "open_url_register::0", "status": "passed", "start": 1576261152145, "stop": 1576261155356}], "start": 1576261114994, "stop": 1576261155356}

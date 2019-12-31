@@ -1,5 +1,0 @@
-INFO     common.basepage:basepage.py:26 等待元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') 可见。
-INFO     common.basepage:basepage.py:34 开始等待时间点：2019-12-18 10:44:33.888363，结束等待时间点：2019-12-18 10:44:33.938368，等待时长为：0:00:00.050005
-INFO     common.basepage:basepage.py:85 查找 demo 中的元素 ('xpath', '//div[@class="jsx-3640116901 inp t_gray1"]') 
-INFO     common.basepage:basepage.py:319 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="edbe0f460cc96a15ff8b18c31cebc6fb", element="09c62b14-3ff9-4680-a6c3-edd339eb780c")>
-INFO     common.basepage:basepage.py:322 鼠标点击元素<selenium.webdriver.remote.webelement.WebElement (session="edbe0f460cc96a15ff8b18c31cebc6fb", element="09c62b14-3ff9-4680-a6c3-edd339eb780c")>成功
