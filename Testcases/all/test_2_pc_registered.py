@@ -39,9 +39,9 @@ class TestLogin:
         rp(open_url_register_pc).register(rd.store_data["storename"],rd.store_data["address"],rd.store_data["contact"])
         rp(open_url_register_pc).update_business(rd.store_data["b_address"])
         rp(open_url_register_pc).update_medical(rd.store_data["m_address"])
-        time.sleep(2)
-        rp(open_url_register_pc).tijiao()
-        assert True==ip(open_url_register_pc).success_register()
+        # time.sleep(2)
+        # rp(open_url_register_pc).tijiao()
+        # assert True==ip(open_url_register_pc).success_register()
         time.sleep(5)
 
 
