@@ -52,6 +52,18 @@ class IndexPage:
             BasePage(self.driver).save_web_screenshot('注册校验失败')
             return False
 
+    #上下架成功校验
+    def success_product(self):
+        try:
+            WebDriverWait(self.driver, 20).until(
+                EC.visibility_of_element_located((By.XPATH,'//p[text()="商品ID：1544774336069"]')))
+            return False
+        except:
+            BasePage(self.driver).save_web_screenshot('商品上下架成功')
+            return True
+
+
+
 
 
 

@@ -19,7 +19,7 @@ class HomePage(BasePage):
     #点击yx商品
     @allure.step('点击进入隐形眼镜商品详情页面')
     def click_yx(self):
-        self.tap(hpl.yx,'进入隐形商品详情页')
+        self.click_element(hpl.yx,'进入隐形商品详情页')
 
     #点击hl商品
     @allure.step('点击进入护理液商品详情页面')

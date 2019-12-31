@@ -28,10 +28,10 @@ class ProductPageLocator:
     dz_check_qingdan=(By.XPATH,'//span[text()="已加入已选清单!"]')
 
     #多彩伴侣盒sku
-    blh_count = (By.XPATH, '//span[text()="纯洁白"]/parent::div/following-sibling::div[@class="action-wrap"]/a[text()="+"]')
+    blh_count = (By.XPATH, '//span[text()="军绿色"]/parent::div/following-sibling::div[@class="action-wrap"]/a[text()="+"]')
 
     #镜片sku
-    jp_count=(By.XPATH, '//span[text()="-3.00"]/parent::div/following-sibling::div[@class="list-value"]/span[text()="+0.00"]/parent::div/following-sibling::div[@class="action-wrap"]/a[text()="+"]')
+    jp_count=(By.XPATH, '//span[text()="-17.00"]/parent::div/following-sibling::div[@class="list-value"]/span[text()="+0.00"]/parent::div/following-sibling::div[@class="action-wrap"]/a[text()="+"]')
 
 ##########################
     # 加入购物车（通用）----选择sku

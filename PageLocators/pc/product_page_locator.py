@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import  By
 class ProductPageLocator:
     #隐形商品sku 花色 度数
     yx_huase=(By.XPATH,'//span[text()="奥义白"]')
-    yx_dushu=(By.XPATH,'//tr[@skuid="1544772850184506342"]/td/span/button[@class="skuAdd skuRA"]')
+    yx_dushu=(By.XPATH,'//tr[@skuid="1544772850184507368"]/td/span/button[@class="skuAdd skuRA"]')
 
     #选择护理用品数量
     hl_count=(By.XPATH,'//input[@class="detailsCglNum"]')
@@ -19,10 +19,10 @@ class ProductPageLocator:
     dz_count = (By.XPATH, '//input[@class="skuNum"]')
 
     #多彩伴侣盒sku
-    blh_count = (By.XPATH, '//tr[@skuid="1544772850184473767"]/td/span/input[@class="skuNum"]')
+    blh_count = (By.XPATH, '//tr[@skuid="1544772850184507420"]/td/span/input[@class="skuNum"]')
 
     #镜片sku
-    jp_count=(By.XPATH, '//tr[@skuid="1544772850184506406"]/td/span/input[@class="skuNum"]')
+    jp_count=(By.XPATH, '//tr[@skuid="1544772850184507402"]/td/span/input[@class="skuNum"]')
 
 ##########################
     # 加入购物车（通用）
