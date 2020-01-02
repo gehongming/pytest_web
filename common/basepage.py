@@ -252,7 +252,7 @@ class BasePage:
                """
         logger.info("下拉列表{}点击选项{}".format(img_doc,value))
         self.wait_eleVisible(loc)
-        self.click_element(loc)
+        self.click_element(loc,img_doc)
         try:
             s = Select(self.get_element(loc))
         except:
