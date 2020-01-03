@@ -25,7 +25,7 @@ from common.file import get_filelist
 class TestLogin:
 
 #验证码登录
-    @pytest.mark.demo
+    @pytest.mark.buy
     @allure.story('登录')
     @allure.title('测试登录正常')
     @allure.description('这是验证码登录的成功用例')
@@ -44,7 +44,7 @@ class TestLogin:
 
 #上架商品
 
-    @pytest.mark.demo
+    @pytest.mark.buy
     @allure.story('上架商品')
     @allure.title('测试商品是否正常')
     @allure.description('这是商品上架正常的成功用例')
@@ -156,7 +156,7 @@ class TestLogin:
         assert True == ip(open_url_pc).jiaru_success()
 
 #进入购物车,选择普通商品并结算
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('测试购物车结算')
     @allure.title('测试购物车结算')
     @allure.description('这是普通片加入购物车的成功用例')
@@ -170,7 +170,7 @@ class TestLogin:
         assert open_url_pc.current_url==bd.to_order["check_url"]
 
 #进入购物车,选择定制商品并结算
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('测试购物车结算')
     @allure.title('测试购物车结算')
     @allure.description('这是定制片加入购物车的成功用例')
@@ -193,7 +193,7 @@ class TestLogin:
     #     time.sleep(0.2)
 
 #取消订单
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('测试取消订单')
     @allure.title('测试取消订单')
     @allure.description('这是取消采购中心订单的成功用例')

@@ -156,7 +156,7 @@ class TestLogin:
         assert True == ip(open_url_m).jiaru_success_1()
 
 #进入购物车,选择普通商品并结算
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('微商城购物车结算')
     @allure.title('微商城购物车结算')
     @allure.description('这是普通片下单的成功用例')
@@ -170,7 +170,7 @@ class TestLogin:
         assert open_url_m.current_url==bd.to_order["check_url"]
 
 #进入购物车,选择定制商品并结算
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('微商城购物车结算')
     @allure.title('微商城购物车结算')
     @allure.description('这是定制片下单的成功用例')
@@ -184,7 +184,7 @@ class TestLogin:
         assert open_url_m.current_url==bd.to_order["check_url"]
 
 #取消订单
-    @pytest.mark.smoke
+    @pytest.mark.buy
     @allure.story('微商城取消订单')
     @allure.title('微商城取消订单')
     @allure.description('这是取消采购中心订单的成功用例')
@@ -200,7 +200,7 @@ class TestLogin:
 @allure.feature("供货中心下架商品")
 @pytest.mark.usefixtures("open_url_pc")
 class TestXiajia:
-    @pytest.mark.demo
+    @pytest.mark.buy
     @allure.story('登录')
     @allure.title('测试登录正常')
     @allure.description('这是验证码登录的成功用例')
@@ -218,7 +218,7 @@ class TestXiajia:
 
 
     # 下架商品
-    @pytest.mark.demo
+    @pytest.mark.buy
     @allure.story('上架商品')
     @allure.title('测试商品是否正常')
     @allure.description('这是商品上架正常的成功用例')
