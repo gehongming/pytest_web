@@ -14,8 +14,8 @@ from common.delete_history import *
 
 remove_files_in_dir(contants.reports_log)
 print('删除日志')
-remove_files_in_dir(contants.allure_results_dir)
-print('删除xml')
+# remove_files_in_dir(contants.allure_results_dir)
+# print('删除xml')
 
 
 # session级别的
