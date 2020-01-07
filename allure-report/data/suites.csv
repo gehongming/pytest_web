@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 31 14:27:04 CST 2019","Tue Dec 31 14:27:13 CST 2019","8848","Testcases.all","test_4_m_buy","TestXiajia","","","测试登录正常","这是验证码登录的成功用例"
-"passed","Tue Dec 31 14:27:13 CST 2019","Tue Dec 31 14:27:47 CST 2019","34451","Testcases.all","test_4_m_buy","TestXiajia","","","测试商品是否正常","这是商品上架正常的成功用例"
-"passed","Tue Dec 31 14:26:12 CST 2019","Tue Dec 31 14:26:21 CST 2019","8910","Testcases.all","test_3_pc_buy","TestLogin","","","测试登录正常","这是验证码登录的成功用例"
-"passed","Tue Dec 31 14:26:21 CST 2019","Tue Dec 31 14:26:55 CST 2019","34352","Testcases.all","test_3_pc_buy","TestLogin","","","测试商品是否正常","这是商品上架正常的成功用例"

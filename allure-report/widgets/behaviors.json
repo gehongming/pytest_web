@@ -1,26 +1,4 @@
 {
-  "total" : 2,
-  "items" : [ {
-    "uid" : "52bc88d8927215a8a5fe6952e2f21c77",
-    "name" : "每日用例-加购",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1a89e25123d4babd852ffcc8ae4cf397",
-    "name" : "供货中心下架商品",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  } ]
+  "total" : 0,
+  "items" : [ ]
 }
