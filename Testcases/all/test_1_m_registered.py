@@ -40,9 +40,9 @@ class TestLogin:
         rp(open_url_register_m).register(rd.store_data["storename"],rd.store_data["address"],rd.store_data["contact"])
         rp(open_url_register_m).update_business(rd.store_data["b_address"])
         rp(open_url_register_m).update_medical(rd.store_data["m_address"])
-        # rp(open_url_register_m).tijiao()
-        # time.sleep(0.8)
-        # assert True==ip(open_url_register_m).success_register()
+        rp(open_url_register_m).tijiao()
+        time.sleep(0.8)
+        assert True==ip(open_url_register_m).success_register()
         time.sleep(5)
 
 
