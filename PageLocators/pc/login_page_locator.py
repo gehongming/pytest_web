@@ -10,3 +10,5 @@ class LoginPageLocator:
     password=(By.XPATH,'//input[@name="phoneCode"]')
     #登录
     login=(By.XPATH,'//a[@class="login"]')
+    #快捷登录
+    kuajie_login=(By.XPATH,'//span[text()="快捷登录"]')
