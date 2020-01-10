@@ -1,1 +1,201 @@
-[ ]
+[ {
+  "uid" : "bd0828c3aea2a317",
+  "name" : "微商城伴侣盒加入购物车",
+  "time" : {
+    "start" : 1578672601677,
+    "stop" : 1578672609959,
+    "duration" : 8282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "357064bf57059542",
+  "name" : "测试伴侣盒加入购物车",
+  "time" : {
+    "start" : 1578672517519,
+    "stop" : 1578672527724,
+    "duration" : 10205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdd0919241e698ea",
+  "name" : "测试登录正常",
+  "time" : {
+    "start" : 1578672656478,
+    "stop" : 1578672668075,
+    "duration" : 11597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "828cd66c51e04966",
+  "name" : "微商城购物车结算",
+  "time" : {
+    "start" : 1578672620422,
+    "stop" : 1578672629095,
+    "duration" : 8673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ae500368dba674",
+  "name" : "测试登录正常",
+  "time" : {
+    "start" : 1578672570396,
+    "stop" : 1578672572516,
+    "duration" : 2120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a69625c083956",
+  "name" : "微商城购物车结算",
+  "time" : {
+    "start" : 1578672629134,
+    "stop" : 1578672637043,
+    "duration" : 7909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6085ed206a05a04",
+  "name" : "测试镜片加入购物车",
+  "time" : {
+    "start" : 1578672527736,
+    "stop" : 1578672537894,
+    "duration" : 10158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "166e37d4aa0bc609",
+  "name" : "微商城定制片加入购物车",
+  "time" : {
+    "start" : 1578672592804,
+    "stop" : 1578672601199,
+    "duration" : 8395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8537c9fe2594ed61",
+  "name" : "测试购物车结算",
+  "time" : {
+    "start" : 1578672545946,
+    "stop" : 1578672553960,
+    "duration" : 8014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46a4903c8c2c7c2e",
+  "name" : "微商城镜片加入购物车",
+  "time" : {
+    "start" : 1578672610523,
+    "stop" : 1578672620371,
+    "duration" : 9848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a20fd139bd53140a",
+  "name" : "测试登录正常",
+  "time" : {
+    "start" : 1578672474293,
+    "stop" : 1578672486469,
+    "duration" : 12176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "447e89609d046ac1",
+  "name" : "测试购物车结算",
+  "time" : {
+    "start" : 1578672537907,
+    "stop" : 1578672545910,
+    "duration" : 8003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59b594ce161a220b",
+  "name" : "测试护理液加入购物车",
+  "time" : {
+    "start" : 1578672498420,
+    "stop" : 1578672506663,
+    "duration" : 8243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37d974522c0a212b",
+  "name" : "微商城护理液加入购物车",
+  "time" : {
+    "start" : 1578672585420,
+    "stop" : 1578672592139,
+    "duration" : 6719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ef2cf625441437",
+  "name" : "微商城取消订单",
+  "time" : {
+    "start" : 1578672637085,
+    "stop" : 1578672647681,
+    "duration" : 10596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58f5b1f96efaf8d2",
+  "name" : "测试定制片加入购物车",
+  "time" : {
+    "start" : 1578672506675,
+    "stop" : 1578672517508,
+    "duration" : 10833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5752e10cfbdb648e",
+  "name" : "微商城隐形眼镜加入购物车",
+  "time" : {
+    "start" : 1578672572545,
+    "stop" : 1578672584766,
+    "duration" : 12221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dab57c84f3a5297",
+  "name" : "测试商品是否正常",
+  "time" : {
+    "start" : 1578672668101,
+    "stop" : 1578672703050,
+    "duration" : 34949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eec611eaff52799a",
+  "name" : "测试隐形眼镜加入购物车",
+  "time" : {
+    "start" : 1578672486494,
+    "stop" : 1578672498403,
+    "duration" : 11909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbbe5e26dddab8bb",
+  "name" : "测试取消订单",
+  "time" : {
+    "start" : 1578672553979,
+    "stop" : 1578672561511,
+    "duration" : 7532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

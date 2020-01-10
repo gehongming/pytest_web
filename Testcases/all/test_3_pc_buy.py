@@ -44,7 +44,7 @@ class TestLogin:
 
 #上架商品
 
-    @pytest.mark.buy
+    @pytest.mark.demo
     @allure.story('上架商品')
     @allure.title('测试商品是否正常')
     @allure.description('这是商品上架正常的成功用例')
