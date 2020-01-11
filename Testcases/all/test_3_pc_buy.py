@@ -25,7 +25,7 @@ from common.file import get_filelist
 class TestLogin:
 
 #验证码登录
-    @pytest.mark.buy
+    @pytest.mark.buy_demo
     @allure.story('登录')
     @allure.title('测试登录正常')
     @allure.description('这是验证码登录的成功用例')
@@ -44,7 +44,7 @@ class TestLogin:
 
 #上架商品
 
-    @pytest.mark.demo
+    @pytest.mark.buy
     @allure.story('上架商品')
     @allure.title('测试商品是否正常')
     @allure.description('这是商品上架正常的成功用例')
