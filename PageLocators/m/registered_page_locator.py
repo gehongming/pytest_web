@@ -27,6 +27,8 @@ class RegisteredPageLocator:
     city=(By.XPATH,'//li[text()="可克达拉市"]')
     #区
     area=(By.XPATH,'//li[text()="兵团六十七团"]')
+    #地区确认
+    address_ok=(By.XPATH,'//div[text()="确认"]')
     #详细地址
     address=(By.XPATH,'//input[@placeholder="请填写"]')
     #联系人

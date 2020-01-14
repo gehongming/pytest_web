@@ -28,6 +28,8 @@ class RegisteredPage(BasePage):
         time.sleep(0.2)
         self.click_element(rpl.area, '区')
         time.sleep(0.1)
+        self.click_element(rpl.address_ok,'确认')
+        time.sleep(0.1)
         self.input_text(rpl.address, '输入详细地址', address)
         self.input_text(rpl.contact, '输入联系人', contact)
     # 上传营业执照

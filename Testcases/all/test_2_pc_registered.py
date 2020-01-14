@@ -15,7 +15,7 @@ from Testdates.pc import registered_datas as rd
 @allure.feature('每日用例-注册')
 class TestLogin:
 #申请店铺不上传医疗许可证
-    @pytest.mark.register2
+    @pytest.mark.register
     def test_login(self,open_url_register_pc):
         time.sleep(0.1)
         rp(open_url_register_pc).aggre()
@@ -29,7 +29,7 @@ class TestLogin:
         time.sleep(5)
 
     # 申请店铺上传医疗许可证
-    @pytest.mark.register
+    @pytest.mark.register2
     def test_login2(self,open_url_register_pc):
         time.sleep(0.1)
         rp(open_url_register_pc).aggre()
