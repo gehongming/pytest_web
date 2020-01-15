@@ -10,6 +10,6 @@ sys.path.append('./')
 
 
 
-pytest.main(["-v","-m","buy_demo","--alluredir=OutPuts/allure-results"])
+pytest.main(["-v","-m","buy","--alluredir=OutPuts/allure-results"])
 os.system("allure generate  OutPuts/allure-results -o allure-report --clean")
 
