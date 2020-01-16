@@ -9,4 +9,4 @@ zhanghao_data={"phone":a,"code":"sD2q"}
 
 
 store_data={"storename":'小明眼镜cs'+a,"address":"网管查房","contact":"小明",
-             "b_address":"D:\\B2B\\营业执照.jpeg","m_address":"D:\\B2B\\医疗许可证.jpg"}
+             "b_address":"F:\\B2B\\营业执照.jpeg","m_address":"F:\\B2B\\医疗许可证.jpg"}
