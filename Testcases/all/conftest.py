@@ -23,7 +23,7 @@ from common.delete_history import *
 def session_action():
     print("===== 会话开始，测试用例开始执行=====")
     #清除测试报告、截图目录
-    remove_files_in_dir(contants.reports_screen)
+    # remove_files_in_dir(contants.reports_screen)
     yield
     print("===== 会话结束，测试用例全部执行完成！=====")
 
