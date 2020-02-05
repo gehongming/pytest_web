@@ -3,7 +3,7 @@
 
 #encoding:utf-8
 #正常登录
-login_data={"user":"17625188013","passwd":"sD2q"}
+login_data={"user":"17625188013","passwd":"YjQ1"}
 
 products_data={"title":"补货"}
 
