@@ -1,9 +1,8 @@
 #__author__="G"
 #date: 2019/6/15
-from selenium.webdriver.common.keys import Keys
-import allure
+
 from PageLocators.pc.login_page_locator import LoginPageLocator as loc
-from common.basepage import BasePage
+from .common import *
 
 
 class LoginPage(BasePage):

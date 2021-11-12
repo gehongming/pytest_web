@@ -4,10 +4,9 @@
 #__author__="G"
 #date: 2019/6/15
 
-import time
-import allure
+
 from PageLocators.pc.order_page_locator import OrderPageLocator as op
-from common.basepage import BasePage
+from .common import *
 
 
 class OrderPage(BasePage):

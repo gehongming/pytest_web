@@ -1,11 +1,10 @@
-#__author__="G"
-#date: 2019/11/14
+# __author__="G"
+# date: 2019/11/14
 
-from selenium.webdriver.common.keys import Keys
-import allure
+
 from PageLocators.m.cgzx_page_locator import CgzxPageLocator as cpl
-from common.basepage import BasePage
-import  time
+from .common import *
+
 
 class CgzxPage(BasePage):
     @allure.step('从订单列表进入采购单')
@@ -28,7 +27,6 @@ class CgzxPage(BasePage):
             time.sleep(0.1)
             self.click_element2(cpl.again_quxiao,'确认')
             time.sleep(0.8)
-
 
     def cancel_order_no(self):
         pass

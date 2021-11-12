@@ -1,10 +1,9 @@
 #__author__="G"
-#date: 2019/11/13
+# date: 2019/11/13
 
-
-from common.basepage import BasePage
 from PageLocators.m.registered_page_locator import RegisteredPageLocator as rpl
-import time
+from .common import *
+
 
 class RegisteredPage(BasePage):
 

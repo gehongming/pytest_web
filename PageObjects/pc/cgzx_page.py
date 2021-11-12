@@ -1,11 +1,9 @@
 #__author__="G"
 #date: 2019/11/14
 
-from selenium.webdriver.common.keys import Keys
-import allure
+
 from PageLocators.pc.cgzx_page_locator import CgzxPageLocator as cpl
-from common.basepage import BasePage
-import  time
+from .common import *
 
 class CgzxPage(BasePage):
     @allure.step('进入带付款列表，取消订单')

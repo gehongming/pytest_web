@@ -1,8 +1,5 @@
-
-import time
-import  allure
 from PageLocators.m.product_page_locator import ProductPageLocator as ppl
-from common.basepage import BasePage
+from .common import *
 
 
 class ProductPage(BasePage):

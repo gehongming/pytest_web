@@ -1,8 +1,6 @@
-import allure
 from PageLocators.pc.gosupplier_page_locator import GosupplierPageLocator as gpl
 from PageLocators.pc.home_page_locator import HomePageLocator as hpl
-from common.basepage import BasePage
-import time
+from .common import *
 
 class GosupplierPage(BasePage):
 
