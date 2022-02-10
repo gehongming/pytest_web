@@ -2,49 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b78272-355f-47e9-b7a3-9731a5d1fd55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/B2B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/B2B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/cgzx_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/cgzx_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/home_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/home_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/login_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/login_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/order_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/order_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/product_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/product_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/registered_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/registered_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/m/shopping_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/m/shopping_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/cgzx_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/cgzx_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/gosupplier_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/gosupplier_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/home_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/home_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/cgzx_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/home_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/login_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/order_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/product_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/registered_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/m/shopping_page_locator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/pc/cgzx_page_locator.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PageLocators/pc/login_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/login_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/order_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/order_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/product_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/product_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/registered_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/registered_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/pc/shopping_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/pc/shopping_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/cgzx_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/cgzx_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/index_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/index_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/order_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/registered_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/registered_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/m/shopping_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/m/shopping_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/cgzx_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/cgzx_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/gosupplier_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/gosupplier_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/cgzx_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/home_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/index_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/order_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/product_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/registered_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/m/shopping_page.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjects/pc/index_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/index_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjects/pc/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/order_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/registered_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/registered_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/pc/shopping_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/pc/shopping_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcases/all/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/all/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/all/test_1_m_registered.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/all/test_1_m_registered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/all/test_2_pc_registered.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/all/test_2_pc_registered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/all/test_3_pc_buy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/all/test_3_pc_buy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcases/all/test_4_m_buy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/all/test_4_m_buy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdates/all/common_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testdates/all/common_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdates/m/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdates/m/buy_datas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdates/m/common_datas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdates/m/registered_datas.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/contants.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/contants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/mouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +71,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -219,21 +217,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PageObjects/pc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.24705882" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web_pytest\Testcases\pc" />
       <recent name="F:\web_pytest\PageObjects\pc" />
       <recent name="F:\web_pytest\Testcases\all" />
       <recent name="D:\B2B\Testcases\all" />
       <recent name="D:\B2B\Testcases\m" />
-      <recent name="D:\B2B\Testdates\m" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\web_pytest\PageObjects\m" />
@@ -243,8 +244,8 @@
       <recent name="D:\B2B\Testdates\m" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_1_crm_console.py">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="B2B" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,51 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="B2B" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases/pc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testcases/pc/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="B2B" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases/all" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testcases/all/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_register (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="B2B" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,7 +280,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_register.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_register" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_1_crm_console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="B2B" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,12 +297,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases/all" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcases/pc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\B2B\main_register.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testcases/pc/test_1_crm_console.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,20 +311,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_1_crm_console.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="B2B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="F:\venv\.env\web-pytest\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Testcases/pc/test_1_crm_console.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.demo" />
-      <item itemvalue="Python.main_register" />
-      <item itemvalue="Python.main_register (1)" />
+      <item itemvalue="Python.demo2" />
+      <item itemvalue="Python.test_1_crm_console" />
+      <item itemvalue="Python tests.pytest in test_1_crm_console.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main_register (1)" />
-        <item itemvalue="Python.main_register" />
+        <item itemvalue="Python.test_1_crm_console" />
+        <item itemvalue="Python.demo2" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +350,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560580695618</updated>
-      <workItem from="1636700993138" duration="3735000" />
+      <workItem from="1636700993138" duration="4985000" />
+      <workItem from="1637030575132" duration="3202000" />
+      <workItem from="1640228668161" duration="5736000" />
+      <workItem from="1640245384674" duration="18000" />
+      <workItem from="1644461315318" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="B2B项目">
       <created>1576586448751</created>
@@ -602,6 +577,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -625,6 +603,24 @@
     <MESSAGE value="B2B项目" />
     <MESSAGE value="登录修改" />
     <option name="LAST_COMMIT_MESSAGE" value="登录修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageLocators/pc/login_page_locator.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web_pytest$pytest_in_demo_py.coverage" NAME="pytest in demo.py Coverage Results" MODIFIED="1637031500643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/web_pytest$test_1_crm_console.coverage" NAME="test_1_crm_console Coverage Results" MODIFIED="1640241031445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcases/pc" />
+    <SUITE FILE_PATH="coverage/web_pytest$pytest_in_test_1_crm_console_py.coverage" NAME="pytest in test_1_crm_console.py Coverage Results" MODIFIED="1640242481334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/web_pytest$demo.coverage" NAME="demo Coverage Results" MODIFIED="1637031541485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_pytest$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1640228877161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PageLocators/m/order_page_locator.py">

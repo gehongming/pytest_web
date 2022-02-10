@@ -1,15 +1,18 @@
 # __author__="G"
-#date: 2019/6/15
+#date: 2019/11/14
 
 from selenium.webdriver.common.by import By
 
 
+
 class LoginPageLocator:
-    # 输入手机号/账号
-    uesr_loc = (By.XPATH, '//input[@name="phone"]')
-    # 输入密码
-    password = (By.XPATH, '//input[@name="phoneCode"]')
-    # 登录
-    login = (By.XPATH, '//a[@class="login"]')
-    # 快捷登录
-    kuajie_login = (By.XPATH, '//span[text()="快捷登录"]')
+
+    console = (By.XPATH, '//li[text()=" 管理员登录 "]')  # 管理员登陆
+    business_id = (By.XPATH, '//input[@placeholder="企业编号"]')  # 企业编号
+    console_account = (By.XPATH, '//input[@placeholder="管理员账号"]')  # 管理员账号
+    agent_account = (By.XPATH, '//input[@placeholder="座席号"]')  # 座席账号
+    pwd = (By.XPATH, '//input[@placeholder="密码"]')  # 管理员密码
+    verify_code = (By.XPATH, '//input[@placeholder="验证码"]')  # 验证码
+
+    login = (By.XPATH, '//button[text()=" 登录系统 "]')
+

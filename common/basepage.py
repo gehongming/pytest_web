@@ -127,7 +127,7 @@ class BasePage:
             raise
     # 直接点击元素
 
-    def click_element2(self, loc, img_doc, timeout=30, frequency=0.5):
+    def click_element2(self, loc, img_doc):
         """
         实现了，点击元素。
         :param loc:
@@ -229,10 +229,8 @@ class BasePage:
         except BaseException:
             logger.exception("网页截屏失败！")
 
-
-# windows切换
+################################ windows切换 ##################################
     # 切换windows传窗口
-
     def check_window(self, loc, img_doc):
         '''
         点击会出现新窗口的操作，并切换到新窗口
@@ -287,8 +285,8 @@ class BasePage:
             raise
         time.sleep(2)
         s.select_by_value(value)
-    # 上传操作 -
 
+    # 上传操作 -
     def upload(self, filePath, img_doc, browser_type="chrome"):
         try:
             logger.info("上传文件路径{}".format(filePath))

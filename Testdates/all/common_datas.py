@@ -1,13 +1,2 @@
-base_url_pc = "https://login.yjq.com/login"
-
-
-
-registered_url_pc = "https://login.yjq.com/preRegister"
-
-
-
-base_url_m = "https://login-m.yjq.com"
-
-
-
-registered_url_m = "https://login-m.yjq.com/bindphone"
+clink2_bj = 'https://bj.clink.cn/login'
+clink2_sh = 'https://sh.clink.cn/login'

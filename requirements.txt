@@ -8,6 +8,7 @@ allure-pytest==2.6.5
 pytest-html==1.21.1
 pytest-metadata==1.8.0
 pytest-rerunfailures==7.0
+pytest-parallel==0.1.1
 selenium==3.141.0
 pypiwin32==223
 Click==7.0

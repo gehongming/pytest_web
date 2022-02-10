@@ -8,7 +8,6 @@ class IndexPage:
     def __init__(self, driver):
         self.driver = driver
     # 登录成功校验
-
     def login_check(self):
         WebDriverWait(self.driver, 30).until(
             EC.visibility_of_element_located((By.ID, 'gosupplier')))

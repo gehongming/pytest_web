@@ -1,6 +1,6 @@
 /reports/*
 /allure-report/*
-demo.py
+demo*
 .pytest_cache
 /logs/*
 Pipfile
@@ -10,3 +10,5 @@ __pycache__/
 db.sqlite3
 .idea/
 /OutPuts/*
+
+

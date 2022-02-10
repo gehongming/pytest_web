@@ -29,7 +29,7 @@ def session_action():
 
 
 @pytest.fixture(scope="class")
-def open_url_register_m():
+def open_url_clink_ol():
     # 前置
     mobileEmulation = {'deviceName': 'iPhone 6/7/8'}
     options = webdriver.ChromeOptions()
