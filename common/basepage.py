@@ -14,12 +14,10 @@ logger = log.get_logger(__name__)
 
 
 class BasePage:
-
     # 包含了PageObjects当中，用到所有的selenium底层方法。
     # 还可以包含通用的一些元素操作，如alert,iframe,windows...
     # 还可以自己额外封装一些web相关的断言
     # 实现日志记录、实现失败截图
-
     def __init__(self, driver):
         self.driver = driver
     # 等待元素可见
@@ -62,9 +60,9 @@ class BasePage:
             # 截图 - 哪一个页面哪一个操作导致的失败。+ 当前时间
             self.save_web_screenshot(img_doc)
             raise
-
 # 判断元素是否存在，if判断用
     # 等待元素存在，校验用
+
     def wait_eleExist_true(self, loc, img_doc="", timeout=5, frequency=0.5):
         logger.info("等待元素 {} 存在。".format(loc))
         try:
@@ -99,13 +97,37 @@ class BasePage:
         except BaseException:
             # 日志
             logger.exception("查找元素失败")
+            # 截图
+            self.save_web_screenshot(img_doc)
+            raise
+    # 多个元素按顺序定位
 
+    def get_elements(self, loc, img_doc="", weizhi=0):
+        """
+            :param loc: 元素定位。以元组的形式。(定位类型、定位时间)
+            :param img_doc: 截图的说明。例如：登陆页面_输入用户名
+            :param weizhi:元素的排在第几位
+            :return: WebElement对象。
+            """
+        logger.info("查找 {} 中的元素 {} ".format(img_doc, loc))
+        try:
+            ele = self.driver.find_elements(*loc)[weizhi]
+            return ele
+        except BaseException:
+            # 日志
+            logger.exception("查找元素失败")
             # 截图
             self.save_web_screenshot(img_doc)
             raise
     # 元素可见点击元素
 
-    def click_element(self, loc, img_doc, timeout=30, frequency=0.5):
+    def click_element(
+            self,
+            loc,
+            img_doc,
+            weizhi=None,
+            timeout=30,
+            frequency=0.5):
         """
         实现了，等待元素可见，找元素，然后再去点击元素。
         :param loc:
@@ -115,7 +137,10 @@ class BasePage:
         # 1、等待元素可见
         self.wait_eleVisible(loc, img_doc, timeout, frequency)
         # 2、找元素
-        ele = self.get_element(loc, img_doc)
+        if weizhi:
+            ele = self.get_elements(loc, img_doc, weizhi=weizhi)
+        else:
+            ele = self.get_element(loc, img_doc)
         try:
             # 3、再操作
             logger.info(" 点击元素 {}".format(loc))
@@ -127,15 +152,23 @@ class BasePage:
             raise
     # 直接点击元素
 
-    def click_element2(self, loc, img_doc):
+    def click_element2(
+            self,
+            loc,
+            img_doc,
+            weizhi=None,
+            timeout=30,
+            frequency=0.5):
         """
         实现了，点击元素。
         :param loc:
         :param img_doc:
         :return:
         """
-        # 1、找元素
-        ele = self.get_element(loc, img_doc)
+        if weizhi:
+            ele = self.get_elements(loc, img_doc, weizhi=weizhi)
+        else:
+            ele = self.get_element(loc, img_doc)
         # 2、再操作
         logger.info(" 点击元素 {}".format(loc))
         try:
@@ -163,12 +196,27 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-
 # 文本输入
     # 文本输入-不等待只查找
+
     def input_text_go(self, loc, img_doc, *args):
         # 2、找元素
         ele = self.get_element(loc, img_doc)
+        # 3、再操作
+        logger.info(" 给元素 {} 输入文本内容:{}".format(loc, args))
+        try:
+            ele.send_keys(*args)
+        except BaseException:
+            # 日志
+            logger.exception("元素输入操作失败")
+            # 截图
+            self.save_web_screenshot(img_doc)
+            raise
+    # 文本输入-配合多元素查找
+
+    def input_text_more(self, loc, img_doc, weizhi, *args):
+        # 2、找元素
+        ele = self.get_elements(loc, img_doc, weizhi=weizhi)
         # 3、再操作
         logger.info(" 给元素 {} 输入文本内容:{}".format(loc, args))
         try:
@@ -216,7 +264,7 @@ class BasePage:
     # 实现网页截图操作
 
     def save_web_screenshot(self, img_doc):
-        #  页面_功能_时间.png
+        # 页面_功能_时间.png
         now = time.strftime("%Y-%m-%d %H_%M_%S")
         filepath = "{}_{}.png".format(img_doc, now)
         try:
@@ -228,9 +276,9 @@ class BasePage:
                     filepath))
         except BaseException:
             logger.exception("网页截屏失败！")
-
-################################ windows切换 ##################################
+# windows切换
     # 切换windows传窗口
+
     def check_window(self, loc, img_doc):
         '''
         点击会出现新窗口的操作，并切换到新窗口
@@ -250,11 +298,11 @@ class BasePage:
 
     def check_iframe(self, loc, webelement, img_doc):
         """
-                       实现了，操作。等待ifram弹框出现。进入下拉框
-                       :param loc:操作后会出现弹框的动作
-                       :param webelement：ifram对象
-                       :return:
-                      """
+                实现了，操作。等待ifram弹框出现。进入下拉框
+                :param loc:操作后会出现弹框的动作
+                :param webelement：ifram对象
+                :return:
+               """
         logger.info("点击{}元素，出现{}弹框".format(loc, img_doc))
         # self.wait_eleVisible(loc)
         self.click_element(loc, img_doc)
@@ -270,11 +318,11 @@ class BasePage:
 
     def select(self, loc, value, img_doc):
         """
-               实现了，等待下拉框可见，找下拉框值，然后再去点击值。
-               :param loc:
-               :param value: value属性值
-               :return:
-               """
+            实现了，等待下拉框可见，找下拉框值，然后再去点击值。
+            :param loc:
+            :param value: value属性值
+            :return:
+            """
         logger.info("下拉列表{}点击选项{}".format(img_doc, value))
         self.wait_eleVisible(loc)
         self.click_element(loc, img_doc)
@@ -285,8 +333,8 @@ class BasePage:
             raise
         time.sleep(2)
         s.select_by_value(value)
-
     # 上传操作 -
+
     def upload(self, filePath, img_doc, browser_type="chrome"):
         try:
             logger.info("上传文件路径{}".format(filePath))
@@ -306,7 +354,6 @@ class BasePage:
             edit = win32gui.FindWindowEx(comboBox, 0, 'Edit', None)  # 四级
             # 打开按钮
             button = win32gui.FindWindowEx(dialog, 0, 'Button', "打开(&O)")  # 四级
-
             # 往编辑当中，输入文件路径 。
             win32gui.SendMessage(
                 edit,
@@ -320,10 +367,10 @@ class BasePage:
             logger.exception("上传文件失败")
             self.save_web_screenshot(img_doc)
             raise
-
-############################################ 鼠标类 ################################################
-
+# 鼠标类
+##############################
     # 鼠标悬浮
+
     def move(self, loc, img_doc):
         ac = ActionChains(self.driver)
         # 等待元素存在
@@ -405,6 +452,7 @@ class BasePage:
         except BaseException:
             # 日志
             logger.exception("鼠标拖拽元素失败")
+
             # 截图
             self.save_web_screenshot(img_doc)
             raise
@@ -442,10 +490,9 @@ class BasePage:
             # 截图
             self.save_web_screenshot(img_doc)
             raise
-
-#############################模仿H5页面##############################
-
+########模仿H5页面########
 # 模拟单击
+
     def tap(self, loc, img_doc):
         ac = TouchActions(self.driver)
         # 等待元素存在

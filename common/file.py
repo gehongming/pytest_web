@@ -1,8 +1,9 @@
-#__author__="G"
+# __author__="G"
 #date: 2019/11/14
 
 from common import contants
 import os
+
 
 def get_filelist(dir):
     Filelist = []
@@ -11,7 +12,7 @@ def get_filelist(dir):
 
         for filename in files:
 
-        # 文件名列表，包含完整路径
+            # 文件名列表，包含完整路径
 
             Filelist.append(os.path.join(home, filename))
 
@@ -20,6 +21,7 @@ def get_filelist(dir):
             # Filelist.append(filename)
 
     return Filelist
+
 
 if __name__ == "__main__":
 
