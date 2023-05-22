@@ -1,4 +1,4 @@
-requests==2.24.0
+requests==2.31.0
 jsonpath==0.82
 Faker==1.0.7
 PyMySQL==0.9.3
